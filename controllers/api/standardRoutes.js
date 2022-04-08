@@ -1,11 +1,13 @@
+// note this is for standard routes, may need changes
+
 const router = require('express').Router();
-const { Project, User } = require('../models');
-const withAuth = require('../utils/auth');
+const { User , Standard } = require('../../models');
+const withAuth = require('../../utils/auth');
 
 router.get('/', async (req, res) => {
   try {
     // Get all projects and JOIN with user data
-    const projectData = await Project.findAll({
+    const standardData = await Standard.findAll({
       include: [
         {
           model: User,
@@ -15,11 +17,11 @@ router.get('/', async (req, res) => {
     });
 
     // Serialize data so the template can read it
-    const projects = projectData.map((project) => project.get({ plain: true }));
+    const standard = standardData.map((standard) => standard.get({ plain: true }));
 
     // Pass serialized data and session flag into template
     res.render('homepage', { 
-      projects, 
+      standard, 
       logged_in: req.session.logged_in 
     });
   } catch (err) {
@@ -27,9 +29,10 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/project/:id', async (req, res) => {
+
+router.get('/standard/:id', async (req, res) => {
   try {
-    const projectData = await Project.findByPk(req.params.id, {
+    const standardData = await Standard.findByPk(req.params.id, {
       include: [
         {
           model: User,
@@ -38,10 +41,10 @@ router.get('/project/:id', async (req, res) => {
       ],
     });
 
-    const project = projectData.get({ plain: true });
+    const standard = standardData.get({ plain: true });
 
-    res.render('project', {
-      ...project,
+    res.render('standard', {
+      ...standard,
       logged_in: req.session.logged_in
     });
   } catch (err) {

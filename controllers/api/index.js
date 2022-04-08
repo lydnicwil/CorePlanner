@@ -1,8 +1,8 @@
 const router = require('express').Router();
 const userRoutes = require('./userRoutes');
-const projectRoutes = require('./projectRoutes'); //change to standards routes
+const projectRoutes = require('./standardRoutes'); 
 
 router.use('/users', userRoutes);
-router.use('/projects', projectRoutes);
+router.use('/standard', standardRoutes);
 
 module.exports = router;

@@ -1,0 +1,2622 @@
+[
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Know number names and the count sequence. CCSS.Math.Content.K.CC.A"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Count to tell the number of objects. CCSS.Math.Content.K.CC.B"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Compare numbers. CCSS.Math.Content.K.CC.C"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Understand addition as putting together and adding to, and understand subtraction as taking apart and taking from. CCSS.Math.Content.K.OA.A"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Work with numbers 11—19 to gain foundations for place value. CCSS.Math.Content.K.NBT.A"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Describe and compare measurable attributes. CCSS.Math.Content.K.MD.A"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Classify objects and count the number of objects in each category. CCSS.Math.Content.K.MD.B"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Identify and describe shapes (squares, circles, triangles, rectangles, hexagons, cubes, cones, cylinders, and spheres). CCSS.Math.Content.K.G.A"
+    },
+    {
+      "Grade": 0,
+      "Class": "Math",
+      "Standard": "Analyze, compare, create, and compose shapes. CCSS.Math.Content.K.G.B"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Represent and solve problems involving addition and subtraction. CCSS.Math.Content.1.OA.A"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Understand and apply properties of operations and the relationship between addition and subtraction. CCSS.Math.Content.1.OA.B"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Add and subtract within 20. CCSS.Math.Content.1.OA.C"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Work with addition and subtraction equations. CCSS.Math.Content.1.OA.D"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Extend the counting sequence. CCSS.Math.Content.1.NBT.A"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Understand place value. CCSS.Math.Content.1.NBT.B"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Use place value understanding and properties of operations to add and subtract. CCSS.Math.Content.1.NBT.C"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Measure lengths indirectly and by iterating length units. CCSS.Math.Content.1.MD.A"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Tell and write time. CCSS.Math.Content.1.MD.B"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Represent and interpret data. CCSS.Math.Content.1.MD.C"
+    },
+    {
+      "Grade": 1,
+      "Class": "Math",
+      "Standard": "Reason with shapes and their attributes. CCSS.Math.Content.1.G.A"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Represent and solve problems involving addition and subtraction. CCSS.Math.Content.2.OA.A"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Add and subtract within 20. CCSS.Math.Content.2.OA.B"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Work with equal groups of objects to gain foundations for multiplication. CCSS.Math.Content.2.OA.C"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Understand place value. CCSS.Math.Content.2.NBT.A"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Use place value understanding and properties of operations to add and subtract. CCSS.Math.Content.2.NBT.B"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Measure and estimate lengths in standard units. CCSS.Math.Content.2.MD.A"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Relate addition and subtraction to length. CCSS.Math.Content.2.MD.B"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Work with time and money. CCSS.Math.Content.2.MD.C"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Represent and interpret data. CCSS.Math.Content.2.MD.D"
+    },
+    {
+      "Grade": 2,
+      "Class": "Math",
+      "Standard": "Reason with shapes and their attributes. CCSS.Math.Content.2.G.A"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Represent and solve problems involving multiplication and division. CCSS.Math.Content.3.OA.A"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Understand properties of multiplication and the relationship between multiplication and division. CCSS.Math.Content.3.OA.B"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Multiply and divide within 100. CCSS.Math.Content.3.OA.C"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Solve problems involving the four operations, and identify and explain patterns in arithmetic. CCSS.Math.Content.3.OA.D"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Use place value understanding and properties of operations to perform multi-digit arithmetic. CCSS.Math.Content.3.NBT.A"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Solve problems involving measurement and estimation of intervals of time, liquid volumes, and masses of objects. CCSS.Math.Content.3.MD.A"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Represent and interpret data. CCSS.Math.Content.3.MD.B"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Geometric measurement: understand concepts of area and relate area to multiplication and to addition. CCSS.Math.Content.3.MD.C"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Geometric measurement: recognize perimeter as an attribute of plane figures and distinguish between linear and area measures. CCSS.Math.Content.3.MD.D"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Reason with shapes and their attributes. CCSS.Math.Content.3.G.A"
+    },
+    {
+      "Grade": 3,
+      "Class": "Math",
+      "Standard": "Develop understanding of fractions as numbers. CCSS.Math.Content.3.NF.A"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Use the four operations with whole numbers to solve problems. CCSS.Math.Content.4.OA.A"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Gain familiarity with factors and multiples. CCSS.Math.Content.4.OA.B"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Generate and analyze patterns. CCSS.Math.Content.4.OA.C"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Generalize place value understanding for multi-digit whole numbers. CCSS.Math.Content.4.NBT.A"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Use place value understanding and properties of operations to perform multi-digit arithmetic. CCSS.Math.Content.4.NBT.B"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Solve problems involving measurement and conversion of measurements from a larger unit to a smaller unit. CCSS.Math.Content.4.MD.A"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Represent and interpret data. CCSS.Math.Content.4.MD.B"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Geometric measurement: understand concepts of angle and measure angles. CCSS.Math.Content.4.MD.C"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Draw and identify lines and angles, and classify shapes by properties of their lines and angles. CCSS.Math.Content.4.G.A"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Extend understanding of fraction equivalence and ordering. CCSS.Math.Content.4.NF.A"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers. CCSS.Math.Content.4.NF.B"
+    },
+    {
+      "Grade": 4,
+      "Class": "Math",
+      "Standard": "Understand decimal notation for fractions, and compare decimal fractions. CCSS.Math.Content.4.NF.C"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Write and interpret numerical expressions. CCSS.Math.Content.5.OA.A"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Analyze patterns and relationships. CCSS.Math.Content.5.OA.B"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Understand the place value system. CCSS.Math.Content.5.NBT.A"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Perform operations with multi-digit whole numbers and with decimals to hundredths. CCSS.Math.Content.5.NBT.B"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Convert like measurement units within a given measurement system. CCSS.Math.Content.5.MD.A"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Represent and interpret data. CCSS.Math.Content.5.MD.B"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Geometric measurement: understand concepts of volume and relate volume to multiplication and to addition. CCSS.Math.Content.5.MD.C"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Graph points on the coordinate plane to solve real-world and mathematical problems. CCSS.Math.Content.5.G.A"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Classify two-dimensional figures into categories based on their properties. CCSS.Math.Content.5.G.B"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Use equivalent fractions as a strategy to add and subtract fractions. CCSS.Math.Content.5.NF.A"
+    },
+    {
+      "Grade": 5,
+      "Class": "Math",
+      "Standard": "Apply and extend previous understandings of multiplication and division to multiply and divide fractions. CCSS.Math.Content.5.NF.B"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Solve real-world and mathematical problems involving area, surface area, and volume. CCSS.Math.Content.6.G.A"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Understand ratio concepts and use ratio reasoning to solve problems. CCSS.Math.Content.6.RP.A"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Apply and extend previous understandings of multiplication and division to divide fractions by fractions. CCSS.Math.Content.6.NS.A"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Compute fluently with multi-digit numbers and find common factors and multiples. CCSS.Math.Content.6.NS.B"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Apply and extend previous understandings of numbers to the system of rational numbers. CCSS.Math.Content.6.NS.C"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Apply and extend previous understandings of arithmetic to algebraic expressions. CCSS.Math.Content.6.EE.A"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Reason about and solve one-variable equations and inequalities. CCSS.Math.Content.6.EE.B"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Represent and analyze quantitative relationships between dependent and independent variables. CCSS.Math.Content.6.EE.C"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Develop understanding of statistical variability. CCSS.Math.Content.6.SP.A"
+    },
+    {
+      "Grade": 6,
+      "Class": "Math",
+      "Standard": "Summarize and describe distributions. CCSS.Math.Content.6.SP.B"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Draw, construct, and describe geometrical figures and describe the relationships between them. CCSS.Math.Content.7.G.A"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Solve real-life and mathematical problems involving angle measure, area, surface area, and volume. CCSS.Math.Content.7.G.B"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Analyze proportional relationships and use them to solve real-world and mathematical problems. CCSS.Math.Content.7.RP.A"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers. CCSS.Math.Content.7.NS.A"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Use properties of operations to generate equivalent expressions. CCSS.Math.Content.7.EE.A"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Solve real-life and mathematical problems using numerical and algebraic expressions and equations. CCSS.Math.Content.7.EE.B"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Use random sampling to draw inferences about a population. CCSS.Math.Content.7.SP.A"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Draw informal comparative inferences about two populations. CCSS.Math.Content.7.SP.B"
+    },
+    {
+      "Grade": 7,
+      "Class": "Math",
+      "Standard": "Investigate chance processes and develop, use, and evaluate probability models. CCSS.Math.Content.7.SP.C"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Understand congruence and similarity using physical models, transparencies, or geometry software. CCSS.Math.Content.8.G.A"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Understand and apply the Pythagorean Theorem. CCSS.Math.Content.8.G.B"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Solve real-world and mathematical problems involving volume of cylinders, cones, and spheres. CCSS.Math.Content.8.G.C"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Know that there are numbers that are not rational, and approximate them by rational numbers. CCSS.Math.Content.8.NS.A"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Work with radicals and integer exponents. CCSS.Math.Content.8.EE.A"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Understand the connections between proportional relationships, lines, and linear equations. CCSS.Math.Content.8.EE.B"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Analyze and solve linear equations and pairs of simultaneous linear equations. CCSS.Math.Content.8.EE.C"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Investigate patterns of association in bivariate data. CCSS.Math.Content.8.SP.A"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Define, evaluate, and compare functions. CCSS.Math.Content.8.F.A"
+    },
+    {
+      "Grade": 8,
+      "Class": "Math",
+      "Standard": "Use functions to model relationships between quantities. CCSS.Math.Content.8.F.B"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of the organization and basic features of print. CCSS.ELA-Literacy.RF.K.1"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of spoken words, syllables, and sounds (phonemes). CCSS.ELA-Literacy.RF.K.2"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Know and apply grade-level phonics and word analysis skills in decoding words. CCSS.ELA-Literacy.RF.K.3"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Read emergent-reader texts with purpose and understanding. CCSS.ELA-Literacy.RF.K.4"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.K.1"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.K.2"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on kindergarten reading and content. CCSS.ELA-Literacy.L.K.4"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "With guidance and support from adults, explore word relationships and nuances in word meanings. CCSS.ELA-Literacy.L.K.5"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Use words and phrases acquired through conversations, reading and being read to, and responding to texts. CCSS.ELA-Literacy.L.K.6"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of the organization and basic features of print. CCSS.ELA-Literacy.RF.1.1"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of spoken words, syllables, and sounds (phonemes). CCSS.ELA-Literacy.RF.1.2"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Know and apply grade-level phonics and word analysis skills in decoding words. CCSS.ELA-Literacy.RF.1.3"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Read with sufficient accuracy and fluency to support comprehension. CCSS.ELA-Literacy.RF.1.4"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Participate in collaborative conversations with diverse partners about kindergarten topics and texts with peers and adults in small and larger groups. CCSS.ELA-Literacy.SL.K.1"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Confirm understanding of a text read aloud or information presented orally or through other media by asking and answering questions about key details and requesting clarification if something is not understood. CCSS.ELA-Literacy.SL.K.2"
+    },
+    {
+      "Grade": 0,
+      "Class": "English",
+      "Standard": "Ask and answer questions in order to seek help, get information, or clarify something that is not understood. CCSS.ELA-Literacy.SL.K.3"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of the organization and basic features of print. CCSS.ELA-Literacy.RF.1.1"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of spoken words, syllables, and sounds (phonemes). CCSS.ELA-Literacy.RF.1.2"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Know and apply grade-level phonics and word analysis skills in decoding words. CCSS.ELA-Literacy.RF.1.3"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Read with sufficient accuracy and fluency to support comprehension. CCSS.ELA-Literacy.RF.1.4"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Participate in collaborative conversations with diverse partners about grade 1 topics and texts with peers and adults in small and larger groups CCSS.ELA-Literacy.SL.1.1"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Ask and answer questions about key details in a text read aloud or information presented orally or through other media. CCSS.ELA-Literacy.SL.1.2"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Ask and answer questions about what a speaker says in order to gather additional information or clarify something that is not understood. CCSS.ELA-Literacy.SL.1.3"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.1.1"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.1.2"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 1 reading and content, choosing flexibly from an array of strategies. CCSS.ELA-Literacy.L.1.4"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "With guidance and support from adults, demonstrate understanding of word relationships and nuances in word meanings. CCSS.ELA-Literacy.L.1.5"
+    },
+    {
+      "Grade": 1,
+      "Class": "English",
+      "Standard": "Use words and phrases acquired through conversations, reading and being read to, and responding to texts, including using frequently occurring conjunctions to signal simple relationships (e.g., because). CCSS.ELA-Literacy.L.1.6"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Know and apply grade-level phonics and word analysis skills in decoding words. CCSS.ELA-Literacy.RF.2.3"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Read with sufficient accuracy and fluency to support comprehension. CCSS.ELA-Literacy.RF.2.4"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.2.1"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.2.2"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Use knowledge of language and its conventions when writing, speaking, reading, or listening. CCSS.ELA-Literacy.L.2.3"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 2 reading and content, choosing flexibly from an array of strategies. CCSS.ELA-Literacy.L.2.4"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of word relationships and nuances in word meanings. CCSS.ELA-Literacy.L.2.5"
+    },
+    {
+      "Grade": 2,
+      "Class": "English",
+      "Standard": "Use words and phrases acquired through conversations, reading and being read to, and responding to texts, including using adjectives and adverbs to describe (e.g., When other kids are happy that makes me happy). CCSS.ELA-Literacy.L.2.6"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Write opinion pieces on topics or texts, supporting a point of view with reasons. CCSS.ELA-Literacy.W.3.1"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts to examine a topic and convey ideas and information clearly. CCSS.ELA-Literacy.W.3.2"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Write narratives to develop real or imagined experiences or events using effective technique, descriptive details, and clear event sequences. CCSS.ELA-Literacy.W.3.3"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "With guidance and support from adults, produce writing in which the development and organization are appropriate to task and purpose. CCSS.ELA-Literacy.W.3.4"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "With guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, and editing. CCSS.ELA-Literacy.W.3.5"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "With guidance and support from adults, use technology to produce and publish writing (using keyboarding skills) as well as to interact and collaborate with others. CCSS.ELA-Literacy.W.3.6"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Conduct short research projects that build knowledge about a topic. CCSS.ELA-Literacy.W.3.7"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Recall information from experiences or gather information from print and digital sources; take brief notes on sources and sort evidence into provided categories. CCSS.ELA-Literacy.W.3.8"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.W.3.10"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Engage effectively in a range of collaborative discussions (one-on-one, in groups, and teacher-led) with diverse partners on grade 3 topics and texts, building on others' ideas and expressing their own clearly. CCSS.ELA-Literacy.SL.3.1"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Determine the main ideas and supporting details of a text read aloud or information presented in diverse media and formats, including visually, quantitatively, and orally. CCSS.ELA-Literacy.SL.3.2"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Ask and answer questions about information from a speaker, offering appropriate elaboration and detail. CCSS.ELA-Literacy.SL.3.3"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Report on a topic or text, tell a story, or recount an experience with appropriate facts and relevant, descriptive details, speaking clearly at an understandable pace. CCSS.ELA-Literacy.SL.3.4"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Create engaging audio recordings of stories or poems that demonstrate fluid reading at an understandable pace; add visual displays when appropriate to emphasize or enhance certain facts or details. CCSS.ELA-Literacy.SL.3.5"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Speak in complete sentences when appropriate to task and situation in order to provide requested detail or clarification. CCSS.ELA-Literacy.SL.3.6"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.3.1"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.3.2"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Use knowledge of language and its conventions when writing, speaking, reading, or listening. CCSS.ELA-Literacy.L.3.3"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning word and phrases based on grade 3 reading and content, choosing flexibly from a range of strategies. CCSS.ELA-Literacy.L.3.4"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of word relationships and nuances in word meanings. CCSS.ELA-Literacy.L.3.5"
+    },
+    {
+      "Grade": 3,
+      "Class": "English",
+      "Standard": "Acquire and use accurately grade-appropriate conversational, general academic, and domain-specific words and phrases, including those that signal spatial and temporal relationships (e.g., After dinner that night we went looking for them). CCSS.ELA-Literacy.L.3.6"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Write opinion pieces on topics or texts, supporting a point of view with reasons and information CCSS.ELA-Literacy.W.4.1"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts to examine a topic and convey ideas and information clearly. CCSS.ELA-Literacy.W.4.2"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Write narratives to develop real or imagined experiences or events using effective technique, descriptive details, and clear event sequences. CCSS.ELA-Literacy.W.4.3"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development and organization are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.W.4.4"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "With guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, and editing. CCSS.ELA-Literacy.W.4.5"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "With some guidance and support from adults, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of one page in a single sitting. CCSS.ELA-Literacy.W.4.6"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Conduct short research projects that build knowledge through investigation of different aspects of a topic. CCSS.ELA-Literacy.W.4.7"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Recall relevant information from experiences or gather relevant information from print and digital sources; take notes and categorize information, and provide a list of sources. CCSS.ELA-Literacy.W.4.8"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Draw evidence from literary or informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.W.4.9"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.W.4.10"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.4.1"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.4.2"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Use knowledge of language and its conventions when writing, speaking, reading, or listening. CCSS.ELA-Literacy.L.4.3"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 4 reading and content, choosing flexibly from a range of strategies. CCSS.ELA-Literacy.L.4.4"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of figurative language, word relationships, and nuances in word meanings. CCSS.ELA-Literacy.L.4.5"
+    },
+    {
+      "Grade": 4,
+      "Class": "English",
+      "Standard": "Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases, including those that signal precise actions, emotions, or states of being (e.g., quizzed, whined, stammered) and that are basic to a particular topic (e.g., wildlife, conservation, and endangered when discussing animal preservation). CCSS.ELA-Literacy.L.4.6"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Know and apply grade-level phonics and word analysis skills in decoding words. CCSS.ELA-Literacy.RF.5.3"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Read with sufficient accuracy and fluency to support comprehension. CCSS.ELA-Literacy.RF.5.4"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts to examine a topic and convey ideas and information clearly. CCSS.ELA-Literacy.W.5.2"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Write narratives to develop real or imagined experiences or events using effective technique, descriptive details, and clear event sequences. CCSS.ELA-Literacy.W.5.3"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development and organization are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.W.5.4"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "With guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach. CCSS.ELA-Literacy.W.5.5"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "With some guidance and support from adults, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of two pages in a single sitting. CCSS.ELA-Literacy.W.5.6"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Conduct short research projects that use several sources to build knowledge through investigation of different aspects of a topic. CCSS.ELA-Literacy.W.5.7"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Recall relevant information from experiences or gather relevant information from print and digital sources; summarize or paraphrase information in notes and finished work, and provide a list of sources. CCSS.ELA-Literacy.W.5.8"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Draw evidence from literary or informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.W.5.9"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.W.5.10"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.5.1"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.5.2"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Use knowledge of language and its conventions when writing, speaking, reading, or listening. CCSS.ELA-Literacy.L.5.3"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 5 reading and content, choosing flexibly from a range of strategies. CCSS.ELA-Literacy.L.5.4"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of figurative language, word relationships, and nuances in word meanings. CCSS.ELA-Literacy.L.5.5"
+    },
+    {
+      "Grade": 5,
+      "Class": "English",
+      "Standard": "Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases, including those that signal contrast, addition, and other logical relationships (e.g., however, although, nevertheless, similarly, moreover, in addition). CCSS.ELA-Literacy.L.5.6"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Write arguments to support claims with clear reasons and relevant evidence. CCSS.ELA-Literacy.W.6.1"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts to examine a topic and convey ideas, concepts, and information through the selection, organization, and analysis of relevant content CCSS.ELA-Literacy.W.6.2"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Write narratives to develop real or imagined experiences or events using effective technique, relevant descriptive details, and well-structured event sequences. CCSS.ELA-Literacy.W.6.3"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.W.6.4"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "With some guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach. CCSS.ELA-Literacy.W.6.5"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of three pages in a single sitting. CCSS.ELA-Literacy.W.6.6"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Conduct short research projects to answer a question, drawing on several sources and refocusing the inquiry when appropriate. CCSS.ELA-Literacy.W.6.7"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Gather relevant information from multiple print and digital sources; assess the credibility of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and providing basic bibliographic information for sources. CCSS.ELA-Literacy.W.6.8"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Draw evidence from literary or informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.W.6.9"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.W.6.10"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Write arguments focused on discipline-specific content. CCSS.ELA-Literacy.WHST.6-8.1"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts, including the narration of historical events, scientific procedures/experiments, or technical processes. CCSS.ELA-Literacy.WHST.6-8.2"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.WHST.6-8.4"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "With some guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on how well purpose and audience have been addressed. CCSS.ELA-Literacy.WHST.6-8.5"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Use technology, including the Internet, to produce and publish writing and present the relationships between information and ideas clearly and efficiently. CCSS.ELA-Literacy.WHST.6-8.6"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Conduct short research projects to answer a question (including a self-generated question), drawing on several sources and generating additional related, focused questions that allow for multiple avenues of exploration. CCSS.ELA-Literacy.WHST.6-8.7"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Gather relevant information from multiple print and digital sources, using search terms effectively; assess the credibility and accuracy of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and following a standard format for citation. CCSS.ELA-Literacy.WHST.6-8.8"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Draw evidence from informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.WHST.6-8.9"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.6.1"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.6.2"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Use knowledge of language and its conventions when writing, speaking, reading, or listening. CCSS.ELA-Literacy.L.6.3"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 6 reading and content, choosing flexibly from a range of strategies. CCSS.ELA-Literacy.L.6.4"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of figurative language, word relationships, and nuances in word meanings. CCSS.ELA-Literacy.L.6.5"
+    },
+    {
+      "Grade": 6,
+      "Class": "English",
+      "Standard": "Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases; gather vocabulary knowledge when considering a word or phrase important to comprehension or expression. CCSS.ELA-Literacy.L.6.6"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Write arguments to support claims with clear reasons and relevant evidence. CCSS.ELA-Literacy.W.7.1"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts to examine a topic and convey ideas, concepts, and information through the selection, organization, and analysis of relevant content CCSS.ELA-Literacy.W.7.2"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Write narratives to develop real or imagined experiences or events using effective technique, relevant descriptive details, and well-structured event sequences. CCSS.ELA-Literacy.W.7.3"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.W.7.4"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "With some guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on how well purpose and audience have been addressed. CCSS.ELA-Literacy.W.7.5"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Use technology, including the Internet, to produce and publish writing and link to and cite sources as well as to interact and collaborate with others, including linking to and citing sources. CCSS.ELA-Literacy.W.7.6"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Conduct short research projects to answer a question, drawing on several sources and generating additional related, focused questions for further research and investigation. CCSS.ELA-Literacy.W.7.7"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Gather relevant information from multiple print and digital sources, using search terms effectively; assess the credibility and accuracy of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and following a standard format for citation. CCSS.ELA-Literacy.W.7.8"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Draw evidence from literary or informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.W.7.9"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.W.7.10"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Write arguments focused on discipline-specific content. CCSS.ELA-Literacy.WHST.6-8.1"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts, including the narration of historical events, scientific procedures/experiments, or technical processes. CCSS.ELA-Literacy.WHST.6-8.2"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.WHST.6-8.4"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "With some guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on how well purpose and audience have been addressed. CCSS.ELA-Literacy.WHST.6-8.5"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Use technology, including the Internet, to produce and publish writing and present the relationships between information and ideas clearly and efficiently. CCSS.ELA-Literacy.WHST.6-8.6"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Conduct short research projects to answer a question (including a self-generated question), drawing on several sources and generating additional related, focused questions that allow for multiple avenues of exploration. CCSS.ELA-Literacy.WHST.6-8.7"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Gather relevant information from multiple print and digital sources, using search terms effectively; assess the credibility and accuracy of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and following a standard format for citation. CCSS.ELA-Literacy.WHST.6-8.8"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Draw evidence from informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.WHST.6-8.9"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for reflection and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.WHST.6-8.10"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.7.1"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.7.2"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Use knowledge of language and its conventions when writing, speaking, reading, or listening. CCSS.ELA-Literacy.L.7.3"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 7 reading and content, choosing flexibly from a range of strategies. CCSS.ELA-Literacy.L.7.4"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of figurative language, word relationships, and nuances in word meanings. CCSS.ELA-Literacy.L.7.5"
+    },
+    {
+      "Grade": 7,
+      "Class": "English",
+      "Standard": "Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases; gather vocabulary knowledge when considering a word or phrase important to comprehension or expression. CCSS.ELA-Literacy.L.7.6"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Write arguments to support claims with clear reasons and relevant evidence. CCSS.ELA-Literacy.W.8.1"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts to examine a topic and convey ideas, concepts, and information through the selection, organization, and analysis of relevant content CCSS.ELA-Literacy.W.8.2"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Write narratives to develop real or imagined experiences or events using effective technique, relevant descriptive details, and well-structured event sequences. CCSS.ELA-Literacy.W.8.3"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.W.8.4"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "With some guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on how well purpose and audience have been addressed. CCSS.ELA-Literacy.W.8.5"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Use technology, including the Internet, to produce and publish writing and present the relationships between information and ideas efficiently as well as to interact and collaborate with others. CCSS.ELA-Literacy.W.8.6"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Conduct short research projects to answer a question (including a self-generated question), drawing on several sources and generating additional related, focused questions that allow for multiple avenues of exploration. CCSS.ELA-Literacy.W.8.7"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Gather relevant information from multiple print and digital sources, using search terms effectively; assess the credibility and accuracy of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and following a standard format for citation. CCSS.ELA-Literacy.W.8.8"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Draw evidence from literary or informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.W.8.9"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for research, reflection, and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.W.8.10"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Write arguments focused on discipline-specific content. CCSS.ELA-Literacy.WHST.6-8.1"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Write informative/explanatory texts, including the narration of historical events, scientific procedures/experiments, or technical processes. CCSS.ELA-Literacy.WHST.6-8.2"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience. CCSS.ELA-Literacy.WHST.6-8.4"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "With some guidance and support from peers and adults, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on how well purpose and audience have been addressed. CCSS.ELA-Literacy.WHST.6-8.5"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Use technology, including the Internet, to produce and publish writing and present the relationships between information and ideas clearly and efficiently. CCSS.ELA-Literacy.WHST.6-8.6"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Conduct short research projects to answer a question (including a self-generated question), drawing on several sources and generating additional related, focused questions that allow for multiple avenues of exploration. CCSS.ELA-Literacy.WHST.6-8.7"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Gather relevant information from multiple print and digital sources, using search terms effectively; assess the credibility and accuracy of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and following a standard format for citation. CCSS.ELA-Literacy.WHST.6-8.8"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Draw evidence from informational texts to support analysis, reflection, and research. CCSS.ELA-Literacy.WHST.6-8.9"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Write routinely over extended time frames (time for reflection and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences. CCSS.ELA-Literacy.WHST.6-8.10"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.8.1"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.8.2"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Use knowledge of language and its conventions when writing, speaking, reading, or listening. CCSS.ELA-Literacy.L.8.3"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Determine or clarify the meaning of unknown and multiple-meaning words or phrases based on grade 8 reading and content, choosing flexibly from a range of strategies. CCSS.ELA-Literacy.L.8.4"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Demonstrate understanding of figurative language, word relationships, and nuances in word meanings. CCSS.ELA-Literacy.L.8.5"
+    },
+    {
+      "Grade": 8,
+      "Class": "English",
+      "Standard": "Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases; gather vocabulary knowledge when considering a word or phrase important to comprehension or expression. CCSS.ELA-Literacy.L.8.6"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Plan and conduct an investigation to compare the effects of different strengths or different directions of pushes and pulls on the motion of an object. K-PS2-1"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Analyze data to determine if a design solution works as intended to change the speed or direction of an object with a push or a pull. K-PS2-2"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Make observations to determine the effect of sunlight on Earth's surface. K-PS3-1"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Use tools and materials to design and build a structure that will reduce the warming effect of sunlight on an area. K-PS3-2"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Use observations to describe patterns of what plants and animals (including humans) need to survive. K-LS1-1"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Use and share observations of local weather conditions to describe patterns over time. K-ESS2-1"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Construct an argument supported by evidence for how plants and animals (including humans) can change the environment to meet their needs. K-ESS2-2"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Use a model to represent the relationship between the needs of different plants or animals (including humans) and the places they live. K-ESS3-1"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Ask questions to obtain information about the purpose of weather forecasting to prepare for, and respond to, severe weather. K-ESS3-2"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Communicate solutions that will reduce the impact of humans on the land, water, air, and/or other living things in the local environment. K-ESS3-3"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Ask questions, make observations, and gather information about a situation people want to change to define a simple problem that can be solved through the development of a new or improved object or tool. K-2-ETS1-1"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Develop a simple sketch, drawing, or physical model to illustrate how the shape of an object helps it function as needed to solve a given problem. K-2-ETS1-2"
+    },
+    {
+      "Grade": 0,
+      "Class": "Science",
+      "Standard": "Analyze data from tests of two objects designed to solve the same problem to compare the strengths and weaknesses of how each performs. K-2-ETS1-3"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Plan and conduct investigations to provide evidence that vibrating materials can make sound and that sound can make materials vibrate. 1-PS4-1"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Make observations to construct an evidence-based account that objects can be seen only when illuminated. 1-PS4-2"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Plan and conduct an investigation to determine the effect of placing objects made with different materials in the path of a beam of light. 1-PS4-3"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Use tools and materials to design and build a device that uses light or sound to solve the problem of communicating over a distance. 1-PS4-4"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Use materials to design a solution to a human problem by mimicking how plants and/or animals use their external parts to help them survive, grow, and meet their needs. 1-LS1-1"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Read texts and use media to determine patterns in behavior of parents and offspring that help offspring survive. 1-LS1-2"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Make observations to construct an evidence-based account that young plants and animals are like, but not exactly like, their parents. 1-LS3-1"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Use observations of the sun, moon, and stars to describe patterns that can be predicted. 1-ESS1-1"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Make observations at different times of year to relate the amount of daylight to the time of year. 1-ESS1-2"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Ask questions, make observations, and gather information about a situation people want to change to define a simple problem that can be solved through the development of a new or improved object or tool. K-2-ETS1-1"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Develop a simple sketch, drawing, or physical model to illustrate how the shape of an object helps it function as needed to solve a given problem. K-2-ETS1-2"
+    },
+    {
+      "Grade": 1,
+      "Class": "Science",
+      "Standard": "Analyze data from tests of two objects designed to solve the same problem to compare the strengths and weaknesses of how each performs. K-2-ETS1-3"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Plan and conduct an investigation to describe and classify different kinds of materials by their observable properties. 2-PS1-1"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Analyze data obtained from testing different materials to determine which materials have the properties that are best suited for an intended purpose. 2-PS1-2"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Make observations to construct an evidence-based account of how an object made of a small set of pieces can be disassembled and made into a new object. 2-PS1-3"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Construct an argument with evidence that some changes caused by heating or cooling can be reversed and some cannot. 2-PS1-4"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Plan and conduct an investigation to determine if plants need sunlight and water to grow. 2-LS2-1"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Develop a simple model that mimics the function of an animal in dispersing seeds or pollinating plants. 2-LS2-2"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Make observations of plants and animals to compare the diversity of life in different habitats. 2-LS4-1"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Use information from several sources to provide evidence that Earth events can occur quickly or slowly. 2-ESS1-1"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Compare multiple solutions designed to slow or prevent wind or water from changing the shape of the land. 2-ESS2-1"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Develop a model to represent the shapes and kinds of land and bodies of water in an area. 2-ESS2-2"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Obtain information to identify where water is found on Earth and that it can be solid or liquid. 2-ESS2-3"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Ask questions, make observations, and gather information about a situation people want to change to define a simple problem that can be solved through the development of a new or improved object or tool. K-2-ETS1-1"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Develop a simple sketch, drawing, or physical model to illustrate how the shape of an object helps it function as needed to solve a given problem. K-2-ETS1-2"
+    },
+    {
+      "Grade": 2,
+      "Class": "Science",
+      "Standard": "Analyze data from tests of two objects designed to solve the same problem to compare the strengths and weaknesses of how each performs. K-2-ETS1-3"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Plan and conduct an investigation to provide evidence of the effects of balanced and unbalanced forces on the motion of an object. 3-PS2-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Make observations and/or measurements of an object's motion to provide evidence that a pattern can be used to predict future motion. 3-PS2-2"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Ask questions to determine cause and effect relationships of electric or magnetic interactions between two objects not in contact with each other. 3-PS2-3"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Define a simple design problem that can be solved by applying scientific ideas about magnets. 3-PS2-4"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Develop models to describe that organisms have unique and diverse life cycles but all have in common birth, growth, reproduction, and death. 3-LS1-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Construct an argument that some animals form groups that help members survive. 3-LS2-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data to provide evidence that plants and animals have traits inherited from parents and that variation of these traits exists in a group of similar organisms. 3-LS3-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Use evidence to support the explanation that traits can be influenced by the environment. 3-LS3-2"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data from fossils to provide evidence of the organisms and the environments in which they lived long ago. 3-LS4-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Use evidence to construct an explanation for how the variations in characteristics among individuals of the same species may provide advantages in surviving, finding mates, and reproducing. 3-LS4-2"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Construct an argument with evidence that in a particular habitat some organisms can survive well, some survive less well, and some cannot survive at all. 3-LS4-3"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Make a claim about the merit of a solution to a problem caused when the environment changes and the types of plants and animals that live there may change. 3-LS4-4"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Represent data in tables and graphical displays to describe typical weather conditions expected during a particular season. 3-ESS2-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Obtain and combine information to describe climates in different regions of the world. 3-ESS2-2"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Make a claim about the merit of a design solution that reduces the impacts of a weather-related hazard. 3-ESS3-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Define a simple design problem reflecting a need or a want that includes specified criteria for success and constraints on materials, time, or cost. 3-5-ETS1-1"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Generate and compare multiple possible solutions to a problem based on how well each is likely to meet the criteria and constraints of the problem. 3-5-ETS1-2"
+    },
+    {
+      "Grade": 3,
+      "Class": "Science",
+      "Standard": "Plan and carry out fair tests in which variables are controlled and failure points are considered to identify aspects of a model or prototype that can be improved. 3-5-ETS1-3"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Use evidence to construct an explanation relating the speed of an object to the energy of that object. 4-PS3-1"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Make observations to provide evidence that energy can be transferred from place to place by sound, light, heat, and electric currents. 4-PS3-2"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Ask questions and predict outcomes about the changes in energy that occur when objects collide. 4-PS3-3"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Apply scientific ideas to design, test, and refine a device that converts energy from one form to another. 4-PS3-4"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Develop a model of waves to describe patterns in terms of amplitude and wavelength and that waves can cause objects to move. 4-PS4-1"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Develop a model to describe that light reflecting from objects and entering the eye allows objects to be seen. 4-PS4-2"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Generate and compare multiple solutions that use patterns to transfer information. 4-PS4-3"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Construct an argument that plants and animals have internal and external structures that function to support survival, growth, behavior, and reproduction. 4-LS1-1"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Use a model to describe that animals' receive different types of information through their senses, process the information in their brain, and respond to the information in different ways. 4-LS1-2"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Identify evidence from patterns in rock formations and fossils in rock layers to support an explanation for changes in a landscape over time. 4-ESS1-1"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Make observations and/or measurements to provide evidence of the effects of weathering or the rate of erosion by water, ice, wind, or vegetation. 4-ESS2-1"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data from maps to describe patterns of Earth's features. 4-ESS2-2"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Obtain and combine information to describe that energy and fuels are derived from natural resources and their uses affect the environment. 4-ESS3-1"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Generate and compare multiple solutions to reduce the impacts of natural Earth processes on humans. 4-ESS3-2"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Define a simple design problem reflecting a need or a want that includes specified criteria for success and constraints on materials, time, or cost. 3-5-ETS1-1"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Generate and compare multiple possible solutions to a problem based on how well each is likely to meet the criteria and constraints of the problem. 3-5-ETS1-2"
+    },
+    {
+      "Grade": 4,
+      "Class": "Science",
+      "Standard": "Plan and carry out fair tests in which variables are controlled and failure points are considered to identify aspects of a model or prototype that can be improved. 3-5-ETS1-3"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Develop a model to describe that matter is made of particles too small to be seen. 5-PS1-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Measure and graph quantities to provide evidence that regardless of the type of change that occurs when heating, cooling, or mixing substances, the total weight of matter is conserved. 5-PS1-2"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Make observations and measurements to identify materials based on their properties. 5-PS1-3"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Conduct an investigation to determine whether the mixing of two or more substances results in new substances. 5-PS1-4"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Support an argument that the gravitational force exerted by Earth on objects is directed down. 5-PS2-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Use models to describe that energy in animals' food (used for body repair, growth, motion, and to maintain body warmth) was once energy from the sun. 5-PS3-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Support an argument that plants get the materials they need for growth chiefly from air and water. 5-LS1-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the movement of matter among plants, animals, decomposers, and the environment. 5-LS2-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Support an argument that differences in the apparent brightness of the sun compared to other stars is due to their relative distances from Earth. 5-ESS1-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Represent data in graphical displays to reveal patterns of daily changes in length and direction of shadows, day and night, and the seasonal appearance of some stars in the night sky. 5-ESS1-2"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Develop a model using an example to describe ways the geosphere, biosphere, hydrosphere, and/or atmosphere interact. 5-ESS2-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Describe and graph the amounts and percentages of water and fresh water in various reservoirs to provide evidence about the distribution of water on Earth. 5-ESS2-2"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Obtain and combine information about ways individual communities use science ideas to protect the Earth's resources and environment. 5-ESS3-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Define a simple design problem reflecting a need or a want that includes specified criteria for success and constraints on materials, time, or cost. 3-5-ETS1-1"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Generate and compare multiple possible solutions to a problem based on how well each is likely to meet the criteria and constraints of the problem. 3-5-ETS1-2"
+    },
+    {
+      "Grade": 5,
+      "Class": "Science",
+      "Standard": "Plan and carry out fair tests in which variables are controlled and failure points are considered to identify aspects of a model or prototype that can be improved. 3-5-ETS1-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop models to describe the atomic composition of simple molecules and extended structures. MS-PS1-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on the properties of substances before and after the substances interact to determine if a chemical reaction has occurred. MS-PS1-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Gather and make sense of information to describe that synthetic materials come from natural resources and impact society. MS-PS1-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop a model that predicts and describes changes in particle motion, temperature, and state of a pure substance when thermal energy is added or removed. MS-PS1-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe how the total number of atoms does not change in a chemical reaction and thus mass is conserved. MS-PS1-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Undertake a design project to construct, test, and modify a device that either releases or absorbs thermal energy by chemical processes. MS-PS1-6"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Apply Newton's Third Law to design a solution to a problem involving the motion of two colliding objects. MS-PS2-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Plan an investigation to provide evidence that the change in an object's motion depends on the sum of the forces on the object and the mass of the object. MS-PS2-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Ask questions about data to determine the factors that affect the strength of electric and magnetic forces. MS-PS2-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct and present arguments using evidence to support the claim that gravitational interactions are attractive and depend on the masses of interacting objects. MS-PS2-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Conduct an investigation and evaluate the experimental design to provide evidence that fields exist between objects exerting forces on each other even though the objects are not in contact. MS-PS2-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct and interpret graphical displays of data to describe the relationships of kinetic energy to the mass of an object and to the speed of an object. MS-PS3-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop a model to describe that when the arrangement of objects interacting at a distance changes, different amounts of potential energy are stored in the system. MS-PS3-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Apply scientific principles to design, construct, and test a device that either minimizes or maximizes thermal energy transfer. MS-PS3-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Plan an investigation to determine the relationships among the energy transferred, the type of matter, the mass, and the change in the average kinetic energy of the particles as measured by the temperature of the sample. MS-PS3-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct, use, and present arguments to support the claim that when the kinetic energy of an object changes, energy is transferred to or from the object. MS-PS3-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Use mathematical representations to describe a simple model for waves that includes how the amplitude of a wave is related to the energy in a wave. MS-PS4-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe that waves are reflected, absorbed, or transmitted through various materials. MS-PS4-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Integrate qualitative scientific and technical information to support the claim that digitized signals (sent as wave pulses) are a more reliable way to encode and transmit information. MS-PS4-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Conduct an investigation to provide evidence that living things are made of cells, either one cell or many different numbers and types of cells. MS-LS1-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe the function of a cell as a whole and ways parts of cells contribute to the function. MS-LS1-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Use argument supported by evidence for how the body is a system of interacting subsystems composed of groups of cells. MS-LS1-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Use argument based on empirical evidence and scientific reasoning to support an explanation for how characteristic animal behaviors and specialized plant structures affect the probability of successful reproduction of animals and plants respectively. MS-LS1-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for how environmental and genetic factors influence the growth of organisms. MS-LS1-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for the role of photosynthesis in the cycling of matter and flow of energy into and out of organisms. MS-LS1-6"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop a model to describe how food is rearranged through chemical reactions forming new molecules that support growth and/or release energy as this matter moves through an organism. MS-LS1-7"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Gather and synthesize information that sensory receptors respond to stimuli by sending messages to the brain for immediate behavior or storage as memories. MS-LS1-8"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data to provide evidence for the effects of resource availability on organisms and populations of organisms in an ecosystem. MS-LS2-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct an explanation that predicts patterns of interactions among organisms across multiple ecosystems. MS-LS2-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of matter and flow of energy among living and nonliving parts of an ecosystem. MS-LS2-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct an argument supported by empirical evidence that changes to physical or biological components of an ecosystem affect populations. MS-LS2-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Evaluate competing design solutions for maintaining biodiversity and ecosystem services. MS-LS2-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe why structural changes to genes (mutations) located on chromosomes may affect proteins and may result in harmful, beneficial, or neutral effects to the structure and function of the organism. MS-LS3-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe why asexual reproduction results in offspring with identical genetic information and sexual reproduction results in offspring with genetic variation. MS-LS3-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data for patterns in the fossil record that document the existence, diversity, extinction, and change of life forms throughout the history of life on Earth under the assumption that natural laws operate today as in the past. MS-LS4-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Apply scientific ideas to construct an explanation for the anatomical similarities and differences among modern organisms and between modern and fossil organisms to infer evolutionary relationships. MS-LS4-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze displays of pictorial data to compare patterns of similarities in the embryological development across multiple species to identify relationships not evident in the fully formed anatomy. MS-LS4-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct an explanation based on evidence that describes how genetic variations of traits in a population increase some individuals' probability of surviving and reproducing in a specific environment. MS-LS4-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Gather and synthesize information about the technologies that have changed the way humans influence the inheritance of desired traits in organisms. MS-LS4-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Use mathematical representations to support explanations of how natural selection may lead to increases and decreases of specific traits in populations over time. MS-LS4-6"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model of the Earth-sun-moon system to describe the cyclic patterns of lunar phases, eclipses of the sun and moon, and seasons. MS-ESS1-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe the role of gravity in the motions within galaxies and the solar system. MS-ESS1-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data to determine scale properties of objects in the solar system. MS-ESS1-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence from rock strata for how the geologic time scale is used to organize Earth's 4.6-billion-year-old history. MS-ESS1-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of Earth's materials and the flow of energy that drives this process. MS-ESS2-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct an explanation based on evidence for how geoscience processes have changed Earth's surface at varying time and spatial scales. MS-ESS2-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on the distribution of fossils and rocks, continental shapes, and seafloor structures to provide evidence of the past plate motions. MS-ESS2-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of water through Earth's systems driven by energy from the sun and the force of gravity. MS-ESS2-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Collect data to provide evidence for how the motions and complex interactions of air masses results in changes in weather conditions. MS-ESS2-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe how unequal heating and rotation of the Earth cause patterns of atmospheric and oceanic circulation that determine regional climates. MS-ESS2-6"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for how the uneven distributions of Earth's mineral, energy, and groundwater resources are the result of past and current geoscience processes. MS-ESS3-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on natural hazards to forecast future catastrophic events and inform the development of technologies to mitigate their effects. MS-ESS3-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Apply scientific principles to design a method for monitoring and minimizing a human impact on the environment. MS-ESS3-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Construct an argument supported by evidence for how increases in human population and per-capita consumption of natural resources impact Earth's systems. MS-ESS3-4"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Ask questions to clarify evidence of the factors that have caused the rise in global temperatures over the past century. MS-ESS3-5"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution, taking into account relevant scientific principles and potential impacts on people and the natural environment that may limit possible solutions. MS-ETS1-1"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem. MS-ETS1-2"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success. MS-ETS1-3"
+    },
+    {
+      "Grade": 6,
+      "Class": "Science",
+      "Standard": "Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process such that an optimal design can be achieved. MS-ETS1-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop models to describe the atomic composition of simple molecules and extended structures. MS-PS1-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on the properties of substances before and after the substances interact to determine if a chemical reaction has occurred. MS-PS1-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Gather and make sense of information to describe that synthetic materials come from natural resources and impact society. MS-PS1-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop a model that predicts and describes changes in particle motion, temperature, and state of a pure substance when thermal energy is added or removed. MS-PS1-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe how the total number of atoms does not change in a chemical reaction and thus mass is conserved. MS-PS1-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Undertake a design project to construct, test, and modify a device that either releases or absorbs thermal energy by chemical processes. MS-PS1-6"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Apply Newton's Third Law to design a solution to a problem involving the motion of two colliding objects. MS-PS2-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Plan an investigation to provide evidence that the change in an object's motion depends on the sum of the forces on the object and the mass of the object. MS-PS2-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Ask questions about data to determine the factors that affect the strength of electric and magnetic forces. MS-PS2-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct and present arguments using evidence to support the claim that gravitational interactions are attractive and depend on the masses of interacting objects. MS-PS2-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Conduct an investigation and evaluate the experimental design to provide evidence that fields exist between objects exerting forces on each other even though the objects are not in contact. MS-PS2-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct and interpret graphical displays of data to describe the relationships of kinetic energy to the mass of an object and to the speed of an object. MS-PS3-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop a model to describe that when the arrangement of objects interacting at a distance changes, different amounts of potential energy are stored in the system. MS-PS3-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Apply scientific principles to design, construct, and test a device that either minimizes or maximizes thermal energy transfer. MS-PS3-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Plan an investigation to determine the relationships among the energy transferred, the type of matter, the mass, and the change in the average kinetic energy of the particles as measured by the temperature of the sample. MS-PS3-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct, use, and present arguments to support the claim that when the kinetic energy of an object changes, energy is transferred to or from the object. MS-PS3-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Use mathematical representations to describe a simple model for waves that includes how the amplitude of a wave is related to the energy in a wave. MS-PS4-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe that waves are reflected, absorbed, or transmitted through various materials. MS-PS4-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Integrate qualitative scientific and technical information to support the claim that digitized signals (sent as wave pulses) are a more reliable way to encode and transmit information. MS-PS4-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Conduct an investigation to provide evidence that living things are made of cells, either one cell or many different numbers and types of cells. MS-LS1-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe the function of a cell as a whole and ways parts of cells contribute to the function. MS-LS1-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Use argument supported by evidence for how the body is a system of interacting subsystems composed of groups of cells. MS-LS1-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Use argument based on empirical evidence and scientific reasoning to support an explanation for how characteristic animal behaviors and specialized plant structures affect the probability of successful reproduction of animals and plants respectively. MS-LS1-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for how environmental and genetic factors influence the growth of organisms. MS-LS1-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for the role of photosynthesis in the cycling of matter and flow of energy into and out of organisms. MS-LS1-6"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop a model to describe how food is rearranged through chemical reactions forming new molecules that support growth and/or release energy as this matter moves through an organism. MS-LS1-7"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Gather and synthesize information that sensory receptors respond to stimuli by sending messages to the brain for immediate behavior or storage as memories. MS-LS1-8"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data to provide evidence for the effects of resource availability on organisms and populations of organisms in an ecosystem. MS-LS2-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct an explanation that predicts patterns of interactions among organisms across multiple ecosystems. MS-LS2-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of matter and flow of energy among living and nonliving parts of an ecosystem. MS-LS2-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct an argument supported by empirical evidence that changes to physical or biological components of an ecosystem affect populations. MS-LS2-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Evaluate competing design solutions for maintaining biodiversity and ecosystem services. MS-LS2-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe why structural changes to genes (mutations) located on chromosomes may affect proteins and may result in harmful, beneficial, or neutral effects to the structure and function of the organism. MS-LS3-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe why asexual reproduction results in offspring with identical genetic information and sexual reproduction results in offspring with genetic variation. MS-LS3-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data for patterns in the fossil record that document the existence, diversity, extinction, and change of life forms throughout the history of life on Earth under the assumption that natural laws operate today as in the past. MS-LS4-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Apply scientific ideas to construct an explanation for the anatomical similarities and differences among modern organisms and between modern and fossil organisms to infer evolutionary relationships. MS-LS4-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze displays of pictorial data to compare patterns of similarities in the embryological development across multiple species to identify relationships not evident in the fully formed anatomy. MS-LS4-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct an explanation based on evidence that describes how genetic variations of traits in a population increase some individuals' probability of surviving and reproducing in a specific environment. MS-LS4-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Gather and synthesize information about the technologies that have changed the way humans influence the inheritance of desired traits in organisms. MS-LS4-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Use mathematical representations to support explanations of how natural selection may lead to increases and decreases of specific traits in populations over time. MS-LS4-6"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model of the Earth-sun-moon system to describe the cyclic patterns of lunar phases, eclipses of the sun and moon, and seasons. MS-ESS1-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe the role of gravity in the motions within galaxies and the solar system. MS-ESS1-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data to determine scale properties of objects in the solar system. MS-ESS1-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence from rock strata for how the geologic time scale is used to organize Earth's 4.6-billion-year-old history. MS-ESS1-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of Earth's materials and the flow of energy that drives this process. MS-ESS2-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct an explanation based on evidence for how geoscience processes have changed Earth's surface at varying time and spatial scales. MS-ESS2-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on the distribution of fossils and rocks, continental shapes, and seafloor structures to provide evidence of the past plate motions. MS-ESS2-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of water through Earth's systems driven by energy from the sun and the force of gravity. MS-ESS2-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Collect data to provide evidence for how the motions and complex interactions of air masses results in changes in weather conditions. MS-ESS2-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe how unequal heating and rotation of the Earth cause patterns of atmospheric and oceanic circulation that determine regional climates. MS-ESS2-6"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for how the uneven distributions of Earth's mineral, energy, and groundwater resources are the result of past and current geoscience processes. MS-ESS3-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on natural hazards to forecast future catastrophic events and inform the development of technologies to mitigate their effects. MS-ESS3-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Apply scientific principles to design a method for monitoring and minimizing a human impact on the environment. MS-ESS3-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Construct an argument supported by evidence for how increases in human population and per-capita consumption of natural resources impact Earth's systems. MS-ESS3-4"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Ask questions to clarify evidence of the factors that have caused the rise in global temperatures over the past century. MS-ESS3-5"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution, taking into account relevant scientific principles and potential impacts on people and the natural environment that may limit possible solutions. MS-ETS1-1"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem. MS-ETS1-2"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success. MS-ETS1-3"
+    },
+    {
+      "Grade": 7,
+      "Class": "Science",
+      "Standard": "Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process such that an optimal design can be achieved. MS-ETS1-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop models to describe the atomic composition of simple molecules and extended structures. MS-PS1-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on the properties of substances before and after the substances interact to determine if a chemical reaction has occurred. MS-PS1-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Gather and make sense of information to describe that synthetic materials come from natural resources and impact society. MS-PS1-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop a model that predicts and describes changes in particle motion, temperature, and state of a pure substance when thermal energy is added or removed. MS-PS1-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe how the total number of atoms does not change in a chemical reaction and thus mass is conserved. MS-PS1-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Undertake a design project to construct, test, and modify a device that either releases or absorbs thermal energy by chemical processes. MS-PS1-6"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Apply Newton's Third Law to design a solution to a problem involving the motion of two colliding objects. MS-PS2-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Plan an investigation to provide evidence that the change in an object's motion depends on the sum of the forces on the object and the mass of the object. MS-PS2-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Ask questions about data to determine the factors that affect the strength of electric and magnetic forces. MS-PS2-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct and present arguments using evidence to support the claim that gravitational interactions are attractive and depend on the masses of interacting objects. MS-PS2-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Conduct an investigation and evaluate the experimental design to provide evidence that fields exist between objects exerting forces on each other even though the objects are not in contact. MS-PS2-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct and interpret graphical displays of data to describe the relationships of kinetic energy to the mass of an object and to the speed of an object. MS-PS3-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop a model to describe that when the arrangement of objects interacting at a distance changes, different amounts of potential energy are stored in the system. MS-PS3-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Apply scientific principles to design, construct, and test a device that either minimizes or maximizes thermal energy transfer. MS-PS3-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Plan an investigation to determine the relationships among the energy transferred, the type of matter, the mass, and the change in the average kinetic energy of the particles as measured by the temperature of the sample. MS-PS3-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct, use, and present arguments to support the claim that when the kinetic energy of an object changes, energy is transferred to or from the object. MS-PS3-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Use mathematical representations to describe a simple model for waves that includes how the amplitude of a wave is related to the energy in a wave. MS-PS4-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe that waves are reflected, absorbed, or transmitted through various materials. MS-PS4-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Integrate qualitative scientific and technical information to support the claim that digitized signals (sent as wave pulses) are a more reliable way to encode and transmit information. MS-PS4-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Conduct an investigation to provide evidence that living things are made of cells, either one cell or many different numbers and types of cells. MS-LS1-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe the function of a cell as a whole and ways parts of cells contribute to the function. MS-LS1-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Use argument supported by evidence for how the body is a system of interacting subsystems composed of groups of cells. MS-LS1-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Use argument based on empirical evidence and scientific reasoning to support an explanation for how characteristic animal behaviors and specialized plant structures affect the probability of successful reproduction of animals and plants respectively. MS-LS1-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for how environmental and genetic factors influence the growth of organisms. MS-LS1-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for the role of photosynthesis in the cycling of matter and flow of energy into and out of organisms. MS-LS1-6"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop a model to describe how food is rearranged through chemical reactions forming new molecules that support growth and/or release energy as this matter moves through an organism. MS-LS1-7"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Gather and synthesize information that sensory receptors respond to stimuli by sending messages to the brain for immediate behavior or storage as memories. MS-LS1-8"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data to provide evidence for the effects of resource availability on organisms and populations of organisms in an ecosystem. MS-LS2-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct an explanation that predicts patterns of interactions among organisms across multiple ecosystems. MS-LS2-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of matter and flow of energy among living and nonliving parts of an ecosystem. MS-LS2-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct an argument supported by empirical evidence that changes to physical or biological components of an ecosystem affect populations. MS-LS2-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Evaluate competing design solutions for maintaining biodiversity and ecosystem services. MS-LS2-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe why structural changes to genes (mutations) located on chromosomes may affect proteins and may result in harmful, beneficial, or neutral effects to the structure and function of the organism. MS-LS3-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe why asexual reproduction results in offspring with identical genetic information and sexual reproduction results in offspring with genetic variation. MS-LS3-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data for patterns in the fossil record that document the existence, diversity, extinction, and change of life forms throughout the history of life on Earth under the assumption that natural laws operate today as in the past. MS-LS4-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Apply scientific ideas to construct an explanation for the anatomical similarities and differences among modern organisms and between modern and fossil organisms to infer evolutionary relationships. MS-LS4-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze displays of pictorial data to compare patterns of similarities in the embryological development across multiple species to identify relationships not evident in the fully formed anatomy. MS-LS4-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct an explanation based on evidence that describes how genetic variations of traits in a population increase some individuals' probability of surviving and reproducing in a specific environment. MS-LS4-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Gather and synthesize information about the technologies that have changed the way humans influence the inheritance of desired traits in organisms. MS-LS4-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Use mathematical representations to support explanations of how natural selection may lead to increases and decreases of specific traits in populations over time. MS-LS4-6"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model of the Earth-sun-moon system to describe the cyclic patterns of lunar phases, eclipses of the sun and moon, and seasons. MS-ESS1-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe the role of gravity in the motions within galaxies and the solar system. MS-ESS1-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data to determine scale properties of objects in the solar system. MS-ESS1-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence from rock strata for how the geologic time scale is used to organize Earth's 4.6-billion-year-old history. MS-ESS1-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of Earth's materials and the flow of energy that drives this process. MS-ESS2-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct an explanation based on evidence for how geoscience processes have changed Earth's surface at varying time and spatial scales. MS-ESS2-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on the distribution of fossils and rocks, continental shapes, and seafloor structures to provide evidence of the past plate motions. MS-ESS2-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop a model to describe the cycling of water through Earth's systems driven by energy from the sun and the force of gravity. MS-ESS2-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Collect data to provide evidence for how the motions and complex interactions of air masses results in changes in weather conditions. MS-ESS2-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop and use a model to describe how unequal heating and rotation of the Earth cause patterns of atmospheric and oceanic circulation that determine regional climates. MS-ESS2-6"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct a scientific explanation based on evidence for how the uneven distributions of Earth's mineral, energy, and groundwater resources are the result of past and current geoscience processes. MS-ESS3-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze and interpret data on natural hazards to forecast future catastrophic events and inform the development of technologies to mitigate their effects. MS-ESS3-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Apply scientific principles to design a method for monitoring and minimizing a human impact on the environment. MS-ESS3-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Construct an argument supported by evidence for how increases in human population and per-capita consumption of natural resources impact Earth's systems. MS-ESS3-4"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Ask questions to clarify evidence of the factors that have caused the rise in global temperatures over the past century. MS-ESS3-5"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution, taking into account relevant scientific principles and potential impacts on people and the natural environment that may limit possible solutions. MS-ETS1-1"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem. MS-ETS1-2"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success. MS-ETS1-3"
+    },
+    {
+      "Grade": 8,
+      "Class": "Science",
+      "Standard": "Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process such that an optimal design can be achieved. MS-ETS1-4"
+    }
+  ]
