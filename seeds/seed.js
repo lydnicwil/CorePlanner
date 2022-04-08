@@ -1,8 +1,8 @@
 const sequelize = require('../config/connection');
-const { User, Project } = require('../models');
+const { User, Standard, Class } = require('../models'); //add admin in future
 
 const userData = require('./userData.json');
-const projectData = require('./projectData.json');
+const projectData = require('./projectData.json'); //update to standardsData
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -12,7 +12,7 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  for (const project of projectData) {
+  for (const project of projectData) {    //update to standardsData
     await Project.create({
       ...project,
       user_id: users[Math.floor(Math.random() * users.length)].id,

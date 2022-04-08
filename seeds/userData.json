@@ -1,22 +1,27 @@
 [
     {
-      "name": "TEST",
-      "email": "TEST@gmail.com",
+      "name": "Teacher1",
+      "email": "teacher1@gmail.com",
       "password": "password12345"
     },
     {
-      "name": "TEST1",
-      "email": "TEST1@gmail.com",
+      "name": "Teacher2",
+      "email": "teacher2@gmail.com",
       "password": "password12345"
     },
     {
-      "name": "TEST2",
-      "email": "TEST2@gmail.com",
+      "name": "Teacher3",
+      "email": "teacher3@gmail.com",
       "password": "password12345"
     },
     {
-        "name": "TEST3",
-        "email": "TEST3@gmail.com",
+        "name": "Teacher4",
+        "email": "Teacher4@gmail.com",
         "password": "password12345"
+    },
+    {
+      "name": "Teacher Standards",
+      "email": "teacherstandards1@gmail.com",
+      "password": "standards1234"
     }
   ]
