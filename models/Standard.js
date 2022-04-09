@@ -20,7 +20,7 @@ Standard.init(
       allowNull: false,
     },
     Standard: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
   },
