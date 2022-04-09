@@ -1,4 +1,4 @@
-// create models for User, Standard, Class (if needed, table already contains class data)
+// create models for User, Standard (if needed, table already contains class data)
 
 const User = require('./User'); 
 const Standard = require('./Standard');

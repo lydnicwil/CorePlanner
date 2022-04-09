@@ -42,7 +42,7 @@ router.get('/standard/:id', async (req, res) => {
 
     const standard = standardData.get({ plain: true });
 
-    res.render('project', {
+    res.render('standard', {
       ...standard,
       logged_in: req.session.logged_in
     });
