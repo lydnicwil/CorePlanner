@@ -1,10 +1,14 @@
+// for bonus: + admin routes 
+// standard routes to get, post, delete (if applicable)
+
 const router = require('express').Router();
-const { Project } = require('../../models');
+const { Standard } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
   try {
-    const newProject = await Project.create({
+    //   if we chose to let users create standards
+    const newStandard = await Standard.create({
       ...req.body,
       user_id: req.session.user_id,
     });
@@ -17,7 +21,7 @@ router.post('/', withAuth, async (req, res) => {
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {
-    const projectData = await Project.destroy({
+    const standardData = await Standard.destroy({
       where: {
         id: req.params.id,
         user_id: req.session.user_id,
@@ -25,7 +29,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     });
 
     if (!projectData) {
-      res.status(404).json({ message: 'No project found with this id!' });
+      res.status(404).json({ message: 'No standard found with this id!' });
       return;
     }
 
