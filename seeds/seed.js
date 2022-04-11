@@ -1,11 +1,12 @@
 // use sequelize to seed database
 const sequelize = require('../config/connection');
 // require models
-const { User, Standard} = require('../models'); //add admin in future, class if needed
+const { User, Standard, Calendar} = require('../models'); //add admin in future, class if needed
 
 // reference seed files
 const userData = require('./userData.json');
 const standardData = require('./standardData.json'); 
+const calendarData = require('./calendar.json');
 // const userAdminData = require('./userAdminData.json'); bonus
 
 // seed database
@@ -24,6 +25,13 @@ const seedDatabase = async () => {
     await Standard.create({
       ...standard,
       user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
+  }
+
+  for (const cal of calendarData) {
+    await Calendar.create({
+      ...cal,
+      teacher_id: teacher[Math.floor(Math.random() * teacher.length)].id,
     });
   }
 
