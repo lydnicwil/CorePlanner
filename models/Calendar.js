@@ -29,7 +29,7 @@ Calendar.init(
     teacher_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
+        model: 'teacher',
         key: 'id',
       },
     },
