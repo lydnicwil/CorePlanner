@@ -1,36 +1,36 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+// const { Model, DataTypes } = require('sequelize');
+// const sequelize = require('../config/connection');
 
-class Standard extends Model {}
+// class Standard extends Model {}
 
-Standard.init(
-  {
-    id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      primaryKey: true,
-      autoIncrement: true,
-    },
-    Grade: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
-    Class: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    Standard: {
-      type: DataTypes.TEXT,
-      allowNull: false,
-    },
-  },
-  {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'standard',
-  }
-);
+// Standard.init(
+//   {
+//     id: {
+//       type: DataTypes.INTEGER,
+//       allowNull: false,
+//       primaryKey: true,
+//       autoIncrement: true,
+//     },
+//     Grade: {
+//       type: DataTypes.INTEGER,
+//       allowNull: false,
+//     },
+//     Class: {
+//       type: DataTypes.STRING,
+//       allowNull: false,
+//     },
+//     Standard: {
+//       type: DataTypes.TEXT,
+//       allowNull: false,
+//     },
+//   },
+//   {
+//     sequelize,
+//     timestamps: false,
+//     freezeTableName: true,
+//     underscored: true,
+//     modelName: 'standard',
+//   }
+// );
 
-module.exports = Standard;
+// module.exports = Standard;
