@@ -13,22 +13,19 @@ const seedDatabase = async () => {
   await sequelize.sync({ force: true });
   console.log('\n----- DATABASE SYNCED -----\n');
 
-  await seedStandard();
-  console.log('\n----- STANDARDS SEEDED -----\n');
-
-  // user seeds require hooks for validation
+  // user seeds require hooks for validation of user data
   const users = await User.bulkCreate(userData, {
     individualHooks: true,
     returning: true,
   });
+  console.log('\n----- USERS SYNCED -----\n');
 
-// right now we're not allowing users to create standards
-  // for (const project of projectData) { //update to standardsData if allow creation
-  //   await Project.create({
-  //     ...project,
-  //     user_id: users[Math.floor(Math.random() * users.length)].id,
-  //   });
-  // }
+  for (const standard of standardData) { 
+    await Standard.create({
+      ...standard,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
+  }
 
   process.exit(0);
 };
