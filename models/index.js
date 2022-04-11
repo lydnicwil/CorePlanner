@@ -1,13 +1,9 @@
-const User = require('./User');
-const Project = require('./Project');
+const User = require('./User'); 
+const Standard = require('./Standard');
 
-User.hasMany(Project, {
+User.hasMany(Standard, {  //relationship user has many standards (user)
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
 
-Project.belongsTo(User, {
-  foreignKey: 'user_id'
-});
-
-module.exports = { User, Project };
+module.exports = { User, Standard };
