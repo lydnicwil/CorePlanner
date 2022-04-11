@@ -2,8 +2,6 @@ const projectForm = $('#project-form');
 const startDate = $('#start-date-input');
 const endDate = $('#end-date-input');
 const calendarPop = $('#calendar-filler');
-const titleEl = $('#title');
-const descriptionEl = $('#description');
 
 if (projectForm) {
   projectForm.on('submit', (e) => {
@@ -14,17 +12,13 @@ if (projectForm) {
     // Get the username text and add it to a variable
     let end_date = endDate[0].value;
 
-    let title = titleEl[0].value;
-
-    let description = descriptionEl[0].value;
-
     // Create an object with the username and feedback
     const newDate = {
-      title,
-      description,
       start_date,
-      end_date,
+      end_date
     };
+
+
 
     // Fetch POST request to the server
     fetch('api/calendar', {
@@ -39,8 +33,6 @@ if (projectForm) {
         alert(data.status);
         startDate[0].value = '';
         endDate[0].value = '';
-        titleEl[0].value = '';
-        descriptionEl[0].value = '';
       });
   })
 }
@@ -48,78 +40,28 @@ if (projectForm) {
 startDate.datepicker({ minDate: 1 });
 endDate.datepicker({ minDate: 1 });
 
-$("#add-event").on('click', (e) => {
-  e.preventDefault();
+if (calendarPop) {
+  calendarPop.on('click', (e) => {
+    e.preventDefault();
 
-  $("#add-event").addClass("display-none");
-  $("#view-calendar").addClass("display-none");
-  $("#calendar-div").addClass("display-none");
-  $("#event-form-div").removeClass("display-none");
-  $("#back-button").removeClass("display-none");
-  $("#preview-calendar-div").addClass("display-none");
-  
-});
+    $('#calendar').empty();
 
-$("#view-calendar").on('click', (e) => {
-  e.preventDefault();
+    fetch('api/calendar',
+      {
+        method: 'GET'
+      }).then(res => {
+        res.json().then(data => {
+          for (let i = 0; i < data.length; i++) {
+            ({ title, description, start_date, end_date } = data[i]);
 
-  $("#add-event").addClass("display-none");
-  $("#event-form-div").addClass("display-none");
-  $("#view-calendar").addClass("display-none");
-  $("#calendar-div").removeClass("display-none");
-  $("#back-button").removeClass("display-none");
-  $("#preview-calendar-div").addClass("display-none");
+            let li = $("<li>");
 
-  $('#calendar').empty();
+            li.append(`<p>${title}</p><p>${description}</p><p>${start_date}</p><p>${end_date}</p>`);
 
-  fetch('api/calendar',
-    {
-      method: 'GET'
-    }).then(res => {
-      res.json().then(data => {
-        for (let i = 0; i < data.length; i++) {
-          ({ title, description, start_date, end_date } = data[i]);
+            $('#calendar').append(li);
+          };
 
-          let li = $("<li>");
-
-          li.append(`<p>${title}</p><p>${description}</p><p>${start_date}</p><p>${end_date}</p>`);
-
-          $('#calendar').append(li);
-        };
-
+        })
       })
-    })
-});
-
-$("#back-button").on('click', (e) => {
-  e.preventDefault();
-
-  $("#add-event").removeClass("display-none");
-  $("#event-form-div").addClass("display-none");
-  $("#view-calendar").removeClass("display-none");
-  $("#calendar-div").addClass("display-none");
-  $("#back-button").addClass("display-none");
-  $("#preview-calendar-div").removeClass("display-none");
-});
-
-fetch('api/calendar',
-    {
-      method: 'GET'
-    }).then(res => {
-      res.json().then(data => {
-        for (let i = 0; i < data.length; i++) {
-          if(i >= 3)
-          {
-            break;
-          }
-          ({ title, description, start_date, end_date } = data[i]);
-
-          let li = $("<li>");
-
-          li.append(`<p>${title}</p><p>${description}</p><p>${start_date}</p><p>${end_date}</p>`);
-
-          $('#preview-calendar').append(li);
-        };
-
-      })
-    })
+  })
+}
