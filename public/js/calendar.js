@@ -1,21 +1,41 @@
 const projectForm = $('#project-form');
 const startDate = $('#start-date-input');
 const endDate = $('#end-date-input');
-const calendarPop = $('#calendar-filler');
+const calendarPop = $('#view-calendar');
+const titleEl = $('#title');
+const descriptionEl = $('#description');
+const teacherID = $('#super-secret');
 
 if (projectForm) {
   projectForm.on('submit', (e) => {
     e.preventDefault();
+
+
+    $('#event-form-div').addClass('display-none');
+    $('#add-event').removeClass('display-none');
+    $('#view-calendar').removeClass('display-none');
+    $('#back-button').addClass('display-none');
+    $('#preview-calendar-div').removeClass('display-none');
+    $('#calendar-div').addClass('display-none');
 
     // Get the feedback text from the DOM and assign it to a variable
     let start_date = startDate[0].value;
     // Get the username text and add it to a variable
     let end_date = endDate[0].value;
 
+    let title = titleEl[0].value;
+
+    let description = descriptionEl[0].value;
+
+    let teacher = teacherID[0].innerHTML;
+
     // Create an object with the username and feedback
     const newDate = {
       start_date,
-      end_date
+      end_date,
+      title,
+      description,
+      teacher
     };
 
 
@@ -33,6 +53,8 @@ if (projectForm) {
         alert(data.status);
         startDate[0].value = '';
         endDate[0].value = '';
+        titleEl.value = '';
+        descriptionEl.value = '';
       });
   })
 }
@@ -52,8 +74,11 @@ if (calendarPop) {
       }).then(res => {
         res.json().then(data => {
           for (let i = 0; i < data.length; i++) {
-            ({ title, description, start_date, end_date } = data[i]);
-
+            ({ title, description, start_date, end_date, teacher } = data[i]);
+            console.log(teacher);
+            console.log(teacherID[0].innerHTML);
+            if(teacher != teacherID[0].innerHTML)
+            {continue;}
             let li = $("<li>");
 
             li.append(`<p>${title}</p><p>${description}</p><p>${start_date}</p><p>${end_date}</p>`);
@@ -65,3 +90,58 @@ if (calendarPop) {
       })
   })
 }
+
+fetch('api/calendar',
+      {
+        method: 'GET'
+      }).then(res => {
+        res.json().then(data => {
+          for (let i = 0; i < data.length; i++) {
+            ({ title, description, start_date, end_date, teacher } = data[i]);
+
+            if(i >= 3 || teacher != teacherID[0].innerHTML)
+            {continue;}
+
+            let li = $("<li>");
+
+            li.append(`<p>${title}</p><p>${description}</p><p>${start_date}</p><p>${end_date}</p>`);
+
+            $('#preview-calendar').append(li);
+          };
+
+        })
+      })
+
+$('#add-event').on('click', (e) => {
+  e.preventDefault();
+
+  $('#event-form-div').removeClass('display-none');
+  $('#add-event').addClass('display-none');
+  $('#view-calendar').addClass('display-none');
+  $('#back-button').removeClass('display-none');
+  $('#preview-calendar-div').addClass('display-none');
+  $('#calendar-div').addClass('display-none');
+})
+
+$('#view-calendar').on('click', (e) => {
+  e.preventDefault();
+
+  $('#event-form-div').addClass('display-none');
+  $('#add-event').addClass('display-none');
+  $('#view-calendar').addClass('display-none');
+  $('#back-button').removeClass('display-none');
+  $('#preview-calendar-div').addClass('display-none');
+  $('#calendar-div').removeClass('display-none');
+})
+
+$('#back-button').on('click', (e) => {
+  e.preventDefault();
+
+  $('#event-form-div').addClass('display-none');
+  $('#add-event').removeClass('display-none');
+  $('#view-calendar').removeClass('display-none');
+  $('#back-button').addClass('display-none');
+  $('#preview-calendar-div').removeClass('display-none');
+  $('#calendar-div').addClass('display-none');
+
+})
