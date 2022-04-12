@@ -59,6 +59,7 @@ router.get('/profile', withAuth, async (req, res) => {
 
     // const user = userData.get({ plain: true });
 
+
     res.render('profile') 
     //   ...user,
     //   logged_in: true
@@ -67,6 +68,17 @@ router.get('/profile', withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+res.render('profile');
+  // , {
+//       ...user,
+//       logged_in: true
+//     });
+//   } catch (err) {
+//     res.status(500).json(err);
+//   }
+// });
+
 
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
