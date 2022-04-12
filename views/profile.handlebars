@@ -1,6 +1,7 @@
 <div class="row">
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
+    <p class="display-none" id="super-secret">{{id}}</p>
   </div>
 </div>
 
@@ -45,59 +46,56 @@
   {{/if}}
 </div>
 
-    <section>
-        <button type="button" class="btn custom-btn" id="add-event">Add Event</button>
-        <button type="button" class="btn custom-btn" id="view-calendar">View All Events</button>
-    </section>
+<section>
+  <button type="button" class="btn custom-btn" id="add-event">Add Event</button>
+  <button type="button" class="btn custom-btn" id="view-calendar">View All Events</button>
+</section>
 
-    <main class="container-fluid display-none" id="event-form-div">
-        <form id="project-form">
-            <div class="form-group">
-                <label for="title">Due Date</label>
-                <input type="text" min='1' id="title" class="form-control"
-                    placeholder="What is the name of the event?" required />
-            </div>
-            <div class="form-group">
-                <label for="description">Due Date</label>
-                <input type="text" min='1' id="description" class="form-control"
-                    placeholder="Add a little description" required />
-            </div>
-            <div class="form-group">
-                <label for="start-date-input">Due Date</label>
-                <input type="text" min='1' id="start-date-input" class="form-control"
-                    placeholder="When is the start date?" required />
-            </div>
-            <div class="form-group">
-                <label for="end-date-input">Due Date</label>
-                <input type="text" min='1' id="end-date-input" class="form-control"
-                    placeholder="When is the end date?" required />
-            </div>
-            <div>
-                <button type="submit" class="btn custom-btn">Submit Project Info</button>
-            </div>
-        </form>
-    </main>
-
-    <section class="display-none" id="calendar-div">
-        <ul id="calendar"></ul>
-    </section>
-
-    <section class="" id="preview-calendar-div">
-        <h3>Events Preview</h3>
-        <ul id="preview-calendar"></ul>
-    </section>
-
-    <div>
-        <button type="button" class="btn custom-btn display-none" id="back-button">Go Back</button>
+<main class="container-fluid display-none" id="event-form-div">
+  <form id="project-form">
+    <div class="form-group">
+      <label for="title">Due Date</label>
+      <input type="text" min='1' id="title" class="form-control" placeholder="What is the name of the event?"
+        required />
     </div>
+    <div class="form-group">
+      <label for="description">Due Date</label>
+      <input type="text" min='1' id="description" class="form-control" placeholder="Add a little description"
+        required />
+    </div>
+    <div class="form-group">
+      <label for="start-date-input">Due Date</label>
+      <input type="text" min='1' id="start-date-input" class="form-control" placeholder="When is the start date?"
+        required />
+    </div>
+    <div class="form-group">
+      <label for="end-date-input">Due Date</label>
+      <input type="text" min='1' id="end-date-input" class="form-control" placeholder="When is the end date?"
+        required />
+    </div>
+    <div>
+      <button type="submit" class="btn custom-btn">Submit Project Info</button>
+    </div>
+  </form>
+</main>
+
+<section class="display-none" id="calendar-div">
+  <ul id="calendar"></ul>
+</section>
+
+<section class="" id="preview-calendar-div">
+  <h3>Events Preview</h3>
+  <ul id="preview-calendar"></ul>
+</section>
+
+<div>
+  <button type="button" class="btn custom-btn display-none" id="back-button">Go Back</button>
+</div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-    <script src="./js/calendar.js"></script>
-
-<script src="./js/profile.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script src="./js/calendar.js"></script>
