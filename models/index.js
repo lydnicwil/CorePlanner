@@ -9,6 +9,8 @@ const Calendar = require('./Calendar');
   onDelete: 'CASCADE'
  }); */
 
+/*FUTURE COULD CROSS REFERENCE TABLE - USER_STANDARD */
+
  User.hasMany(Calendar, {
      foreignKey: 'user_id'
  });

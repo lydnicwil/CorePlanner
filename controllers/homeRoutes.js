@@ -61,6 +61,7 @@ router.get('/profile', withAuth, async (req, res) => {
     res.render('profile', {
       ...user,
       logged_in: true
+      // is_Admin: userData.isAdmin
     });
   } catch (err) {
     res.status(500).json(err);

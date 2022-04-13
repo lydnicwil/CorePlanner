@@ -36,6 +36,16 @@ User.init(
         len: [8],
       },
     },
+    // based on the title the admin flag will be true or false 
+    isAdmin: {
+      type:DataTypes.BOOLEAN, 
+      defaultValue: false
+    },
+    //ex: Principal, teacher ,
+    title:{
+      type: DataTypes.STRING, 
+      allowNull: false
+    }
   },
   {
     hooks: {
