@@ -3,11 +3,13 @@
 const User = require('./User'); 
 const Standard = require('./Standard');
 const Calendar = require('./Calendar');
+const Admin = require('./Admin');
+const Class = require('./Class');
 
-/* User.hasMany(Standard, {  //relationship user has many standards (user)
+User.hasMany(Class, {  //relationship user has many standards (user)
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
- }); */
+ });
 
 /*FUTURE COULD CROSS REFERENCE TABLE - USER_STANDARD */
 
@@ -15,4 +17,4 @@ const Calendar = require('./Calendar');
      foreignKey: 'user_id'
  });
 
-module.exports = { User, Standard, Calendar}; //add back in standard if user working
+module.exports = { User, Standard, Calendar, Admin, Class}; //add back in standard if user working

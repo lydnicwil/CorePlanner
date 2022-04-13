@@ -1,10 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const sql = require('postgresql');
 
-class Standard extends Model { }
+class Admin extends Model {}
 
-Standard.init(
+Admin.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -12,17 +11,17 @@ Standard.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    Grade: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
-    Class: {
+    name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    Standard: {
-      type: DataTypes.JSON,
-      allowNull: false
+    email: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
   },
   {
@@ -30,8 +29,8 @@ Standard.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'standard',
+    modelName: 'admin',
   }
 );
 
-module.exports = Standard;
+module.exports = Admin;

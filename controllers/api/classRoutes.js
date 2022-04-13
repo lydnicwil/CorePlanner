@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { readAndAppend, readFromFile } = require('../../utils/fsUtils');
 
 router.get('/', (req, res) =>
-  readFromFile('./seeds/calendarData.json').then((data) => res.json(JSON.parse(data)))
+  readFromFile('./seeds/classData.json').then((data) => res.json(JSON.parse(data)))
 );
 
 router.post('/', (req, res) => {
@@ -20,7 +20,7 @@ router.post('/', (req, res) => {
             teacher
         };
 
-        readAndAppend(newDate, './seeds/calendarData.json');
+        readAndAppend(newDate, './seeds/classData.json');
 
         const response = {
             status: 'success',
