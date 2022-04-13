@@ -12,5 +12,12 @@
         "title": "Teacher 3",
         "description": "test",
         "teacher": "4"
+    },
+    {
+        "start_date": "04/19/2022",
+        "end_date": "04/20/2022",
+        "title": "test",
+        "description": "test",
+        "teacher": "5"
     }
 ]
