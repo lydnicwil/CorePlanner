@@ -1,37 +1,26 @@
 <div class="row">
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
+    <p class="display-none" id="super-secret">{{id}}</p>
   </div>
 </div>
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Plan your Standards Based Curriculum:</h3>
+    <h3>Create a New Project:</h3>
 
-    <form class="form new-standardLesson-form">
+    <form class="form new-project-form">
       <div class="form-group">
-        <label for="lesson-name">Lesson Name:</label>
-        <input class="form-input" type="text" id="lesson-name" name="lesson-name" />
+        <label for="project-name">project name:</label>
+        <input class="form-input" type="text" id="project-name" name="project-name" />
       </div>
       <div class="form-group">
-        <label for="objective-info">Objective:</label>
-        <input class="form-input" type="text" id="objective-info" name="objective-info" />
-      </div>
-      <div class="dropdownMenus">
-        <label for="select-standard">Select Standard:</label>
-        <input class="form-input" type="number" id="standard-dropdown" name="standard-dropdown" />
+        <label for="project-funding">needed funding ($):</label>
+        <input class="form-input" type="number" id="project-funding" name="project-funding" />
       </div>
       <div class="form-group">
-        <label for="resources-materials">Resources and Materials extra:</label>
-        <input class="form-input" type="text" id="resource-name" name="resource-name" />
-      </div>
-      <div class="form-group">
-        <label for="lesson-prep">Lesson Preparation:</label>
-        <input class="form-input" type="text" id="lesson-prep" name="lesson-prep" />
-      </div>
-      <div class="form-group">
-        <label for="lesson-outline">Lesson Outline:</label>
-        <textarea class="form-input" id="lesson-outline" name="lesson-outline"></textarea>
+        <label for="project-desc">description:</label>
+        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Create</button>
@@ -39,17 +28,17 @@
     </form>
   </div>
 
-  {{#if standards.length}}
-  <div class="col-md-6 standardLesson-list">
-    <h3>Current Lessons:</h3>
+  {{#if projects.length}}
+  <div class="col-md-6 project-list">
+    <h3>Current Projects:</h3>
 
-    {{#each standards as |standard|}}
+    {{#each projects as |project|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/standard/{{standard.id}}">{{standard.standard}}</a></h4>
+        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
       </div>
       <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{standard.id}}">DELETE</button>
+        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
       </div>
     </div>
     {{/each}}
@@ -57,4 +46,56 @@
   {{/if}}
 </div>
 
-<script src="../public/js/standard.js"></script>
+<section>
+  <button type="button" class="btn custom-btn" id="add-event">Add Event</button>
+  <button type="button" class="btn custom-btn" id="view-calendar">View All Events</button>
+</section>
+
+<main class="container-fluid display-none" id="event-form-div">
+  <form id="project-form">
+    <div class="form-group">
+      <label for="title">Due Date</label>
+      <input type="text" min='1' id="title" class="form-control" placeholder="What is the name of the event?"
+        required />
+    </div>
+    <div class="form-group">
+      <label for="description">Due Date</label>
+      <input type="text" min='1' id="description" class="form-control" placeholder="Add a little description"
+        required />
+    </div>
+    <div class="form-group">
+      <label for="start-date-input">Due Date</label>
+      <input type="text" min='1' id="start-date-input" class="form-control" placeholder="When is the start date?"
+        required />
+    </div>
+    <div class="form-group">
+      <label for="end-date-input">Due Date</label>
+      <input type="text" min='1' id="end-date-input" class="form-control" placeholder="When is the end date?"
+        required />
+    </div>
+    <div>
+      <button type="submit" class="btn custom-btn">Submit Project Info</button>
+    </div>
+  </form>
+</main>
+
+<section class="display-none" id="calendar-div">
+  <ul id="calendar"></ul>
+</section>
+
+<section class="" id="preview-calendar-div">
+  <h3>Events Preview</h3>
+  <ul id="preview-calendar"></ul>
+</section>
+
+<div>
+  <button type="button" class="btn custom-btn display-none" id="back-button">Go Back</button>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script src="./js/calendar.js"></script>
