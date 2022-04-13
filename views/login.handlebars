@@ -1,42 +1,246 @@
-<div class="row">
-  <div class="col-md-6">
-    <h2>Login</h2>
+<!DOCTYPE html>
+<html>
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Italiana&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet" />
+       <!--<link href="./css/main.css" rel="stylesheet" />--> 
+        <title>CorePlanner</title>
+    </head>
+    <body>
+        <div class="background">
+            <div class="heading"></div>
+            <h1>CorePlanner</h1>
+            <h2 class="headlogin">Log In/ Out</span>
+            <h2 class="headhome"></span>
+  
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                         <h2>Welcome Back.</h2>
+  
+                        <form class="form login-form">
+                            <div class="form-group emailbox">
+                                <!--<label for="email-login">email:</label>-->
+                                <input class="form-input" type="text" id="email-login" placeholder="email@email.com"/>
+                            </div>
+  
+                            <div class="form-group passbox">
+                                <!--<label for="password-login">password:</label>-->
+                                <input class="form-input" type="password" id="password-login" placeholder="********"/>
+                            </div>
+          
+                            <div class="form-group">
+                                <button class="btn btn-primary logbtn" type="submit">login</button>
+                            </div>
+                        </form>
+                    </div>
+      <!--<div class="col-md-6">
+        <h2>Signup</h2>
+  
+        <form class="form signup-form">
+          <div class="form-group">
+            <label for="name-signup">name:</label>
+            <input class="form-input" type="text" id="name-signup" />
+          </div>
+  
+          <div class="form-group">
+            <label for="email-signup">email:</label>
+            <input class="form-input" type="text" id="email-signup" />
+          </div>
+  
+          <div class="form-group">
+            <label for="password-signup">password:</label>
+            <input class="form-input" type="password" id="password-signup" />
+          </div>
+  
+          <div class="form-group">
+            <button class="btn btn-primary" type="submit">signup</button>
+          </div>
+        </form>-->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
 
-    <form class="form login-form">
-      <div class="form-group">
-        <label for="email-login">email:</label>
-        <input class="form-input" type="text" id="email-login" />
-      </div>
-      <div class="form-group">
-        <label for="password-login">password:</label>
-        <input class="form-input" type="password" id="password-login" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">login</button>
-      </div>
-    </form>
-  </div>
-  <div class="col-md-6">
-    <h2>Signup</h2>
-
-    <form class="form signup-form">
-      <div class="form-group">
-        <label for="name-signup">name:</label>
-        <input class="form-input" type="text" id="name-signup" />
-      </div>
-      <div class="form-group">
-        <label for="email-signup">email:</label>
-        <input class="form-input" type="text" id="email-signup" />
-      </div>
-      <div class="form-group">
-        <label for="password-signup">password:</label>
-        <input class="form-input" type="password" id="password-signup" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">signup</button>
-      </div>
-    </form>
-  </div>
-</div>
-
+<style>
+    * {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background {
+  width: 100%;
+  height: 1024px;
+  background: rgba(229,248,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.heading {
+  width: 100%;
+  height: 121px;
+  background: rgba(7,31,116,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.background h1{
+  width: 374px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: -10px;
+  left: 523px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 5px;
+}
+.headlogin {
+  width: 142px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 25px;
+  left: 1258px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.headhome {
+  width: 76px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 25px;
+  left: 56px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.container {
+  width: 1300px;
+  height: 761px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  /*left: 100px;*/
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.row h2 {
+  width: 787px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 15px;
+  left: 297px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+.emailbox {
+  width: 485px;
+  height: 74px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 200px;
+  left: 454px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.passbox {
+  width: 485px;
+  height: 74px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 325px;
+  left: 454px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.logbtn {
+  width: 131px;
+  height: 59px;
+  background: rgba(82,154,177,1);
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 631px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.v17_84 {
+  width: 261px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 365px;
+  left: 470px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.logbtn {
+  width: 142px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 445px;
+  left: 626px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+input {
+  width: 485px;
+  height: 101px;
+  font-weight: Regular;
+  font-size: 35px;
+  font-family: Italiana;
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 0px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script src="./js/calendar.js"></script>
 <script src="./js/login.js"></script>
