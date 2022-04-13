@@ -1,97 +1,253 @@
-<div class="row">
-  <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
-    <p class="display-none" id="super-secret">{{id}}</p>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Italiana&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet" />
+        <!--<link href="./css/main.css" rel="stylesheet" />-->
+        <title>CorePlanner</title>
+    </head>
+    <body>
+        <div class="background">
+            <div class="heading"></div>
+            <h1>CorePlanner</h1>
+            <h2 class="headlogin">Log In/ Out</span>
+            <h2 class="headhome"></span>
+  
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
 
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Create a New Project:</h3>
+                        <div class="calendar"></div>
+                        <div class="plansbtn"></div>
+                        <div class="standardsbtn"></div>
+                        {{#if classes.length}}
+                            <div class="col-md-6 class-list">
+                                <h3>Your Classes:</h3>
 
-    <form class="form new-project-form">
-      <div class="form-group">
-        <label for="project-name">project name:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
-      </div>
-      <div class="form-group">
-        <label for="project-funding">needed funding ($):</label>
-        <input class="form-input" type="number" id="project-funding" name="project-funding" />
-      </div>
-      <div class="form-group">
-        <label for="project-desc">description:</label>
-        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
-      </div>
-    </form>
-  </div>
+                                {{#each classes as |class|}}
+                                <div class="row mb-2">
+                                    <div class="col-md-8">
+                                        <h4><a href="/class/{{class.id}}">{{class.name}}</a></h4>
+                                    </div> 
+                                </div>
+                                {{/each}}
+                            </div>
+                        {{/if}}
+                    </div>
+                    <h2 class="classes">Upcoming Lesson Plans</h2>
+                    <h2 class="standards">Full Standards List</h2>
+                    <h2 class="greeting">Hello, {{name}}!</h2>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background {
+  width: 100%;
+  height: 1024px;
+  background: rgba(229,248,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.heading {
+  width: 100%;
+  height: 121px;
+  background: rgba(7,31,116,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.background h1{
+  width: 374px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: -10px;
+  left: 523px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 5px;
+}
+.headlogin {
+  width: 142px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 25px;
+  left: 1258px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.headhome {
+  width: 76px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 25px;
+  left: 56px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+/*.v17_76 {
+  width: 100%;
+  height: 250px;
+  background: url("../images/v17_76.png");
+  opacity: 1;
+  position: absolute;
+  top: 325px;
+  left: 5px;
+  border: 15px solid rgba(7,43,171,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.v17_77 {
+  width: 100%;
+  height: 226px;
+  background: url("../images/v17_77.png");
+  opacity: 1;
+  position: absolute;
+  top: 390px;
+  left: 6px;
+  border: 10px solid rgba(82,154,177,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}*/
+.container {
+  width: 1300px;
+  height: 761px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  /*left: 100px;*/
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.calendar {
+  width: 543px;
+  height: 543px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 75px;
+  left: 722px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.plansbtn {
+  width: 464px;
+  height: 113px;
+  background: rgba(82,154,177,1);
+  opacity: 1;
+  position: absolute;
+  top: 175px;
+  left: 169px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.standardsbtn{
+  width: 464px;
+  height: 113px;
+  background: rgba(82,154,177,1);
+  opacity: 1;
+  position: absolute;
+  top: 300px;
+  left: 169px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.classes {
+  width: 368px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 175px;
+  left: 217px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.standards {
+  width: 368px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 300px;
+  left: 217px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.greeting {
+  width: 470px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10px;
+  left: 163px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 65px;
+  opacity: 1;
+  text-align: center;
+}
 
-  {{#if projects.length}}
-  <div class="col-md-6 project-list">
-    <h3>Current Projects:</h3>
+.class-list h3 {
+  width: 470px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: -100px;
+  /*right: 150px;*/
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
 
-    {{#each projects as |project|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
-      </div>
-    </div>
-    {{/each}}
-  </div>
-  {{/if}}
-</div>
-
-<section>
-  <button type="button" class="btn custom-btn" id="add-event">Add Event</button>
-  <button type="button" class="btn custom-btn" id="view-calendar">View All Events</button>
-</section>
-
-<main class="container-fluid display-none" id="event-form-div">
-  <form id="project-form">
-    <div class="form-group">
-      <label for="title">Due Date</label>
-      <input type="text" min='1' id="title" class="form-control" placeholder="What is the name of the event?"
-        required />
-    </div>
-    <div class="form-group">
-      <label for="description">Due Date</label>
-      <input type="text" min='1' id="description" class="form-control" placeholder="Add a little description"
-        required />
-    </div>
-    <div class="form-group">
-      <label for="start-date-input">Due Date</label>
-      <input type="text" min='1' id="start-date-input" class="form-control" placeholder="When is the start date?"
-        required />
-    </div>
-    <div class="form-group">
-      <label for="end-date-input">Due Date</label>
-      <input type="text" min='1' id="end-date-input" class="form-control" placeholder="When is the end date?"
-        required />
-    </div>
-    <div>
-      <button type="submit" class="btn custom-btn">Submit Project Info</button>
-    </div>
-  </form>
-</main>
-
-<section class="display-none" id="calendar-div">
-  <ul id="calendar"></ul>
-</section>
-
-<section class="" id="preview-calendar-div">
-  <h3>Events Preview</h3>
-  <ul id="preview-calendar"></ul>
-</section>
-
-<div>
-  <button type="button" class="btn custom-btn display-none" id="back-button">Go Back</button>
-</div>
-
+.class-list {
+  width: 470px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 200px;
+  right: 163px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+</style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
