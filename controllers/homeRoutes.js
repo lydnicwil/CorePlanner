@@ -79,4 +79,61 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/calendar', withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+    });
+
+    const user = userData.get({ plain: true });
+
+    res.render('calendar', {
+      ...user,
+      logged_in: true
+      // is_Admin: userData.isAdmin
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/project', withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+    });
+
+    const user = userData.get({ plain: true });
+
+    res.render('project', {
+      ...user,
+      logged_in: true
+      // is_Admin: userData.isAdmin
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/standards', withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+    });
+
+    const user = userData.get({ plain: true });
+
+    res.render('standards', {
+      ...user,
+      logged_in: true
+      // is_Admin: userData.isAdmin
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;
