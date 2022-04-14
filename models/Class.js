@@ -11,7 +11,17 @@ Class.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    standards: {
+    grade:
+    {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    class:
+    {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    standard: {
         type: DataTypes.TEXT,
         allowNull: false
     },
