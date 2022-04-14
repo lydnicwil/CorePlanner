@@ -1,38 +1,37 @@
 [
-    {
-      "name": "Principal1",
-      "email": "principal@gmail.com",
-      "password": "password12345",
-      "isAdmin": true, 
-      "title": "Admin"
-      
-    },
-    {
-      "name": "Teacher2",
-      "email": "teacher2@gmail.com",
-      "password": "password12345",
-      "isAdmin": false, 
-      "title": "Teacher"
-    },
-    {
-      "name": "Teacher3",
-      "email": "teacher3@gmail.com",
-      "password": "password12345",
-      "isAdmin": false, 
-      "title": "Teacher"
-    },
-    {
-        "name": "Admin",
-        "email": "Admin@gmail.com",
-        "password": "password12345",
-        "isAdmin": true, 
-       "title": "Admin"
-    },
-    {
-      "name": "Teacher Standards",
-      "email": "teacherstandards1@gmail.com",
-      "password": "standards1234",
-      "isAdmin": false, 
-      "title": "Teacher"
-    }
-  ]
+  {
+    "name": "Principal1",
+    "email": "principal@gmail.com",
+    "password": "password12345",
+    "isAdmin": true,
+    "title": "Admin"
+  },
+  {
+    "name": "Teacher2",
+    "email": "teacher2@gmail.com",
+    "password": "password12345",
+    "isAdmin": false,
+    "title": "Teacher"
+  },
+  {
+    "name": "Teacher3",
+    "email": "teacher3@gmail.com",
+    "password": "password12345",
+    "isAdmin": false,
+    "title": "Teacher"
+  },
+  {
+    "name": "Admin",
+    "email": "Admin@gmail.com",
+    "password": "password12345",
+    "isAdmin": true,
+    "title": "Admin"
+  },
+  {
+    "name": "Teacher Standards",
+    "email": "teacherstandards1@gmail.com",
+    "password": "standards1234",
+    "isAdmin": false,
+    "title": "Teacher"
+  }
+]

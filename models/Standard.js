@@ -1,6 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const sql = require('postgresql');
 
 class Standard extends Model { }
 
