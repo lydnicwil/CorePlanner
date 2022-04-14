@@ -28,7 +28,7 @@
     "title": "Admin"
   },
   {
-    "name": "Teacher Standards",
+    "name": "Teacher",
     "email": "teacherstandards1@gmail.com",
     "password": "standards1234",
     "isAdmin": false,

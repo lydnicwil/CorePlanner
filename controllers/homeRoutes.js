@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
     //     });
 
     //     // // Serialize data so the template can read it onto homepage
-    //     const standards = standardData.map((standard) => standard.get({ plain: true }));
+        // const standards = standardData.map((standard) => standard.get({ plain: true }));
 
     // // Pass serialized data and session flag into template
     res.render('homepage', {
@@ -26,16 +26,19 @@ router.get('/', async (req, res) => {
   }
 });
 
+
+
+
 // router.get('/standard/:id', async (req, res) => {
 //   try {
-//     const standardData = await Standard.findByPk(req.params.id, {
-//       include: [
-//         {
-//           model: User,
-//           attributes: ['name'],
-//         },
-//       ],
-//     });
+// //     const standardData = await Standard.findByPk(req.params.id, {
+// //       include: [
+// //         {
+// //           model: User,
+// //           attributes: ['name'],
+// //         },
+// //       ],
+// //     });
 
 //     const standard = standardData.get({ plain: true });
 

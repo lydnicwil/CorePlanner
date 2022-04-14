@@ -1,14 +1,14 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const lessonName = document.querySelector('#lesson-name').value.trim();
+  // const lessonName = document.querySelector('#lesson-name').value.trim();
   const standardName = document.querySelector('#standard-dropdown').value.trim();
-  const objective = document.querySelector('#objective-info').value.trim();
+  // const objective = document.querySelector('#objective-info').value.trim();
 
-  if (lessonName && standard-dropdown && objective) {
+  if (standard-dropdown) {
     const response = await fetch(`/api/`, {
-      method: 'POST',
-      body: JSON.stringify({ lessonName, standardName, objective }),
+      method: 'GET',
+      body: JSON.stringify({standardName }),
       headers: {
         'Content-Type': 'application/json',
       },
