@@ -5,6 +5,10 @@ const router = require('express').Router();
 const { Standard } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+router.get('/', (req, res) =>
+  readFromFile('./seeds/standardData.json').then((data) => res.json(JSON.parse(data)))
+);
+
 router.post('/', withAuth, async (req, res) => {
   try {
     //   if we chose to let users create standards
