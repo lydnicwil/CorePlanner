@@ -27,8 +27,6 @@ router.get('/', async (req, res) => {
 });
 
 
-
-
 // router.get('/standard/:id', async (req, res) => {
 //   try {
 // //     const standardData = await Standard.findByPk(req.params.id, {

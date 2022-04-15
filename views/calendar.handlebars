@@ -1,98 +1,105 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Italiana&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet" />
-        <link href="./css/main.css" rel="stylesheet" />
-        <title>CorePlanner</title>
-    </head>
-    <body>
-         <p class="display-none"  id="super-secret">{{id}}</p> 
-         <div class="v19_122 form-group container-fluid form-control">
-           <section>
-                <button type="button" class="btn custom-btn" id="add-event">Add Event</button>
-                <button type="button" class="btn custom-btn" id="view-calendar">View Events</button>
-              </section>
-                 <form id="project-form">
-                  <div class="form-group">
-                    <label for="grade-select">Select Grade</label>
-                    <select class="form-control custom-select" id="grade-select">
-                        <option>Kindergarten</option>
-                        <option>Grade 1</option>
-                        <option>Grade 2</option>
-                        <option>Grade 3</option>
-                        <option>Grade 4</option>
-                        <option>Grade 5</option>
-                        <option>Grade 6</option>
-                        <option>Grade 7</option>
-                        <option>Grade 8</option>
-                    </select>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="class-select">Select Class</label>
-                    <select  class="form-control custom-select" id="class-select">
-                      <option>Math</option>
-                      <option>English</option>
-                      <option>Science</option>
-                    </select>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Standards Associated with Class</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="auto pop standards for database here"></textarea>
-                  </div>
-                  </div>
-              <main class="display-none" id="event-form-div">
-                  <div class="form-group">
-                    <label for="title">Lesson Name</label>
-                    <input type="text" min='1' id="title" class="form-control" placeholder="What is the name of the event?"
-                      required />
-                  </div>
-                  <div class="form-group">
-                    <label for="description">Add a Description</label>
-                    <input type="text" min='1' id="description" class="form-control" placeholder="Add a little description"
-                      required />
-                  </div>
-                  <div class="form-group">
-                    <label for="start-date-input">Lesson Start Date</label>
-                    <input type="text" min='1' id="start-date-input" class="form-control" placeholder="When is the start date?"
-                      required />
-                  </div>
-                  <div class="form-group">
-                    <label for="end-date-input">Lesson End Date</label>
-                    <input type="text" min='1' id="end-date-input" class="form-control" placeholder="When is the end date?"
-                      required />
-                  </div>
-                  <div>
-                    <button type="submit" class="btn custom-btn form-group row">Submit Lesson Standard </button><button type="button" class="btn custom-btn form-group" id="back-button">Go Back</button>
-                  </div>
-                </form>
-              </main>
-              
-              <section class="display-none" id="calendar-div">
-                <ul id="calendar"></ul>
-              </section>
-              
-              <section class="form-control" id="preview-calendar-div">
-                <h5>Scheduled Standards Added</h5>
-                <ul id="preview-calendar"></ul>
-              </section>
-              
-              <div>
-                
-              </div>
-             </div>
-             
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-              <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-               <!-- Optional JavaScript -->
-              {{!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> --}}
-              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-              <script src="./js/calendar.js"></script>
-      
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Italiana&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet" />
+  <link href="./css/main.css" rel="stylesheet" />
+  <title>CorePlanner</title>
+</head>
+
+<body>
+  <p class="display-none" id="super-secret">{{id}}</p>
+  <div class="v19_122 form-group container-fluid form-control">
+    <section>
+      <button type="button" class="btn custom-btn" id="add-event">Add Event</button>
+      <button type="button" class="btn custom-btn" id="view-calendar">View Events</button>
+    </section>
+    <form id="project-form">
+      <div class="form-group">
+        <label for="grade-select">Select Grade</label>
+        <select class="form-control custom-select" id="grade-select">
+          <option>Kindergarten</option>
+          <option>Grade 1</option>
+          <option>Grade 2</option>
+          <option>Grade 3</option>
+          <option>Grade 4</option>
+          <option>Grade 5</option>
+          <option>Grade 6</option>
+          <option>Grade 7</option>
+          <option>Grade 8</option>
+        </select>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="class-select">Select Class</label>
+        <select class="form-control custom-select" id="class-select">
+          <option>Math</option>
+          <option>English</option>
+          <option>Science</option>
+        </select>
+        <div class="form-group">
+          <label for="standard-area">Standards Associated with Class</label>
+          <textarea class="form-control" id="stadndard-area" rows="3" readonly></textarea>
+        </div>
+      </div>
+      <main class="display-none" id="event-form-div">
+        <div class="form-group">
+          <label for="description">Add a Description</label>
+          <input type="text" min='1' id="description" class="form-control" placeholder="Add a little description"
+            required />
+        </div>
+        <div class="form-group">
+          <label for="start-date-input">Lesson Start Date</label>
+          <input type="text" min='1' id="start-date-input" class="form-control" placeholder="When is the start date?"
+            required />
+        </div>
+        <div class="form-group">
+          <label for="end-date-input">Lesson End Date</label>
+          <input type="text" min='1' id="end-date-input" class="form-control" placeholder="When is the end date?"
+            required />
+        </div>
+        <div>
+          <button type="submit" class="btn custom-btn form-group row">Submit Lesson Standard </button><button
+            type="button" class="btn custom-btn form-group" id="back-button">Go Back</button>
+        </div>
+    </form>
+    </main>
+
+    <section class="display-none" id="calendar-div">
+      <ul id="calendar"></ul>
+    </section>
+
+    <section class="form-control" id="preview-calendar-div">
+      <h5>Scheduled Standards Added</h5>
+      <ul id="preview-calendar"></ul>
+    </section>
+
+    <div>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  <!-- Optional JavaScript -->
+  {{!--
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script> --}}
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./js/calendar.js"></script>
+
 </body>
-</html> 
+
+</html>

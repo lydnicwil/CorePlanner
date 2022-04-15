@@ -6,7 +6,7 @@ const classRoutes = require('./classRoutes');
 
 router.use('/users', userRoutes);
 router.use('/calendar', calendarRoutes);
-router.use('/standard', standardRoutes);
+router.use('/standards', standardRoutes);
 router.use('/class', classRoutes);
 
 module.exports = router;
