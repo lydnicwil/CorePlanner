@@ -7,24 +7,24 @@ router.get('/', (req, res) =>
 
 router.post('/', (req, res) => {
     // Destructuring assignment for the items in req.body
-    const { start_date, end_date, title, description, teacher } = req.body;
+    console.log("!");
+    const { gradeSelected, classSelected, standardSelected, teacher} = req.body;
 
-    // If all the required properties are present
-    if (start_date && end_date && title && description && teacher) {
-        // Variable for the object we will save
-        const newDate = {
-            start_date,
-            end_date,
-            title,
-            description,
-            teacher
-        };
+  // If all the required properties are present
+  if (gradeSelected && classSelected && standardSelected && teacher) {
+    // Variable for the object we will save
+    const newClass = {
+      gradeSelected,
+      classSelected,
+      standardSelected,
+      teacher
+    };
 
-        readAndAppend(newDate, './seeds/classData.json');
+        readAndAppend(newClass, './seeds/classData.json');
 
         const response = {
             status: 'success',
-            body: newDate,
+            body: newClass,
         };
 
         res.json(response);

@@ -14,17 +14,20 @@ if (projectForm) {
     // Get the username text and add it to a variable
     let classSelected = classSelect[0].value
 
+    let standardSelected = standardArea[0].value;
+
     let teacher = teacherID[0].innerHTML;
 
     // Create an object with the username and feedback
     const newClass = {
       gradeSelected,
       classSelected,
+      standardSelected,
       teacher
     };
 
     // Fetch POST request to the server
-    fetch('api/standards', {
+    fetch('api/class', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

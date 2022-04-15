@@ -23,7 +23,7 @@ router.post('/', withAuth, (req, res) => {
       teacher
     };
 
-    readAndAppend(newClass, './seeds/classData.json');
+    readAndAppend(newClass, './seeds/standardData.json');
 
     const response = {
       status: 'success',
