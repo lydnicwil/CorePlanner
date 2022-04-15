@@ -7,17 +7,19 @@ router.get('/', (req, res) =>
 
 router.post('/', (req, res) => {
     // Destructuring assignment for the items in req.body
-    const { start_date, end_date, title, description, teacher } = req.body;
+    const { description, start_date, end_date,  gradeSelection, classSelection, standardSelection, teacher } = req.body;
 
     // If all the required properties are present
-    if (start_date && end_date && title && description && teacher) {
+    if (description && start_date && end_date && gradeSelection && classSelection && standardSelection && teacher) {
         // Variable for the object we will save
         const newDate = {
             start_date,
             end_date,
-            title,
             description,
-            teacher
+            teacher,
+            gradeSelection,
+            classSelection,
+            standardSelection
         };
 
         readAndAppend(newDate, './seeds/calendarData.json');

@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
         // const standards = standardData.map((standard) => standard.get({ plain: true }));
 
     // // Pass serialized data and session flag into template
-    res.render('homepage', {
+    res.render('login', {
       logged_in: req.session.logged_in
     });
   } catch (err) {
