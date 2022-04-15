@@ -6,7 +6,7 @@ const Calendar = require('./Calendar');
 const Admin = require('./Admin');
 const Class = require('./Class');
 
-User.hasMany(Class, {  //relationship user has many standards (user)
+User.hasMany(Class, { 
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
  });

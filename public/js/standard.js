@@ -1,47 +1,108 @@
-const newFormHandler = async (event) => {
-  event.preventDefault();
+const projectForm = $('#project-form');
+const gradeSelect = $('#grade-select');
+const classSelect = $('#class-select');
+const standardArea = $('#standard-area');
+const addClass = $('#add-class');
+const teacherID = $('#super-secret');
 
-  // const lessonName = document.querySelector('#lesson-name').value.trim();
-  const standardName = document.querySelector('#standard-dropdown').value.trim();
-  // const objective = document.querySelector('#objective-info').value.trim();
+if (projectForm) {
+  projectForm.on('submit', (e) => {
+    e.preventDefault();
 
-  if (standard-dropdown) {
-    const response = await fetch(`/api/`, {
-      method: 'GET',
-      body: JSON.stringify({standardName }),
+    // Get the feedback text from the DOM and assign it to a variable
+    let gradeSelected = gradeSelect[0].value;
+    // Get the username text and add it to a variable
+    let classSelected = classSelect[0].value
+
+    let teacher = teacherID[0].innerHTML;
+
+    // Create an object with the username and feedback
+    const newClass = {
+      gradeSelected,
+      classSelected,
+      teacher
+    };
+
+    // Fetch POST request to the server
+    fetch('api/standards', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-    });
+      body: JSON.stringify(newClass),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        alert(data.status);
+      });
+  });
+}
 
-    if (response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert('Failed to create standard lesson plan');
-    }
-  }
-};
+fetch('api/standards',
+  {
+    method: 'GET'
+  }).then(res => {
+    res.json().then(data => {
+      for (let i = 0; i < data.length; i++) {
+        ({ Grade, Class, Standards } = data[i]);
 
-const delButtonHandler = async (event) => {
-  if (event.target.hasAttribute('data-id')) {
-    const id = event.target.getAttribute('data-id');
+        if (Grade == gradeSelect[0].value && Class == classSelect[0].value) {
 
-    const response = await fetch(`/api/standards/${id}`, {
-      method: 'DELETE',
-    });
+          for (let j = 0; j < Standards.length; j++) {
+            standardArea[0].value += `${Standards[j]}\n`;
+          }
+        }
+      };
 
-    if (response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert('Failed to delete standard lesson plan');
-    }
-  }
-};
+    })
+  })
 
-document
-  .querySelector('.new-standardLesson-form')
-  .addEventListener('submit', newFormHandler);
+gradeSelect.on('change', (e) => {
+  e.preventDefault();
 
-document
-  .querySelector('.standardLesson-list')
-  .addEventListener('click', delButtonHandler);
+  standardArea[0].value = '';
+
+  fetch('api/standards',
+    {
+      method: 'GET'
+    }).then(res => {
+      res.json().then(data => {
+        for (let i = 0; i < data.length; i++) {
+          ({ Grade, Class, Standards } = data[i]);
+
+          if (Grade == gradeSelect[0].value && Class == classSelect[0].value) {
+
+            for (let j = 0; j < Standards.length; j++) {
+              standardArea[0].value += `${Standards[j]}\n`;
+            }
+          }
+        };
+
+      })
+    })
+});
+
+classSelect.on('change', (e) => {
+  e.preventDefault();
+
+  standardArea[0].value = '';
+
+  fetch('api/standards',
+    {
+      method: 'GET'
+    }).then(res => {
+      res.json().then(data => {
+        for (let i = 0; i < data.length; i++) {
+          ({ Grade, Class, Standards } = data[i]);
+
+          if (Grade == gradeSelect[0].value && Class == classSelect[0].value) {
+
+            for (let j = 0; j < Standards.length; j++) {
+              standardArea[0].value += `${Standards[j]}\n`;
+            }
+          }
+        };
+
+      })
+    })
+});
