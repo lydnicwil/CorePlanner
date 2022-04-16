@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "gradeSelected": "1",
+        "classSelected": "English",
+        "standardSelected": "Demonstrate understanding of the organization and basic features of print. CCSS.ELA-Literacy.RF.1.1 \nDemonstrate understanding of spoken words, syllables, and sounds (phonemes). CCSS.ELA-Literacy.RF.1.2 \nKnow and apply grade-level phonics and word analysis skills in decoding words. CCSS.ELA-Literacy.RF.1.3 \nRead with sufficient accuracy and fluency to support comprehension. CCSS.ELA-Literacy.RF.1.4 \nParticipate in collaborative conversations with diverse partners about grade 1 topics and texts with peers and adults in small and larger groups CCSS.ELA-Literacy.SL.1.1 \nAsk and answer questions about key details in a text read aloud or information presented orally or through other media. CCSS.ELA-Literacy.SL.1.2 \nAsk and answer questions about what a speaker says in order to gather additional information or clarify something that is not understood. CCSS.ELA-Literacy.SL.1.3 \nDemonstrate command of the conventions of standard English grammar and usage when writing or speaking. CCSS.ELA-Literacy.L.1.1 \nDemonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing. CCSS.ELA-Literacy.L.1.2 \nDetermine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 1 reading and content, choosing flexibly from an array of strategies. CCSS.ELA-Literacy.L.1.4 \nWith guidance and support from adults, demonstrate understanding of word relationships and nuances in word meanings. CCSS.ELA-Literacy.L.1.5 \nUse words and phrases acquired through conversations, reading and being read to, and responding to texts, including using frequently occurring conjunctions to signal simple relationships (e.g., because). CCSS.ELA-Literacy.L.1.6 \n",
+        "teacher": "5"
+    },
+    {
+        "gradeSelected": "0",
+        "classSelected": "Math",
+        "standardSelected": "Know number names and the count sequence. CCSS.Math.Content.K.CC.A \nCount to tell the number of objects. CCSS.Math.Content.K.CC.B \nCompare numbers. CCSS.Math.Content.K.CC.C \nUnderstand addition as putting together and adding to, and understand subtraction as taking apart and taking from. CCSS.Math.Content.K.OA.A \nWork with numbers 11—19 to gain foundations for place value. CCSS.Math.Content.K.NBT.A \nDescribe and compare measurable attributes. CCSS.Math.Content.K.MD.A \nClassify objects and count the number of objects in each category. CCSS.Math.Content.K.MD.B \nIdentify and describe shapes (squares, circles, triangles, rectangles, hexagons, cubes, cones, cylinders, and spheres). CCSS.Math.Content.K.G.A \nAnalyze, compare, create, and compose shapes. CCSS.Math.Content.K.G.B \n",
+        "teacher": "5"
+    }
+]

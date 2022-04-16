@@ -19,7 +19,7 @@ Standard.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    Standard: {
+    Standards: {
       type: DataTypes.JSON,
       allowNull: false
     },
