@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Italiana&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet" />
-       <!--<link href="./css/main.css" rel="stylesheet" />-->
-        <title>CorePlanner</title>
-    </head>
-    <body>
-        <div class="background">
-  
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="title">{{class.name}}</h2>
-                        <p class="standards">{{class.standards}}<p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Italiana&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet" />
+  {{!-- <link href="./css/main.css" rel="stylesheet" /> --}}
+  <title>CorePlanner</title>
+</head>
+
+<body>
+  <p class="display-none" id="super-secret">{{id}}</p>
+  <div class="v19_122 form-group container-fluid form-control">
+    <form id="project-form">
+      <div class="form-group">
+        <label for="grade-select">Select Grade</label>
+        <select class="form-control custom-select" id="grade-select">
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="class-select">Select Class</label>
+        <select class="form-control custom-select" id="class-select">
+          <option>Math</option>
+          <option>English</option>
+          <option>Science</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="standard-area">Standards Associated with Class</label>
+        <textarea class="form-control" id="standard-area" rows="3" readonly></textarea>
+      </div>
+  </div>
+  <div>
+    <button type="submit" class="btn custom-btn form-group row" id="add-class">Add Class </button>
+  </div>
+  </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  <!-- Optional JavaScript -->
+  {{!--
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script> --}}
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./js/standard.js"></script>
+
+</body>
+
 </html>
 
 <style>
@@ -62,6 +110,7 @@ body {
   border: 10px solid rgba(82,154,177,1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }*/
+
 .container {
   width: 1300px;
   height: 761px;
@@ -101,10 +150,20 @@ body {
   opacity: 1;
   text-align: left;
 }
-
+  .standards {
+    width: 100%;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1905px;
+    font-family: Jost;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
 </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>

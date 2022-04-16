@@ -4,18 +4,35 @@
 const router = require('express').Router();
 const { Standard } = require('../../models');
 const withAuth = require('../../utils/auth');
+const { readAndAppend, readFromFile } = require('../../utils/fsUtils');
 
-router.post('/', withAuth, async (req, res) => {
-  try {
-    //   if we chose to let users create standards
-    const newStandard = await Standard.create({
-      ...req.body,
-      user_id: req.session.user_id,
-    });
+router.get('/', (req, res) =>
+  readFromFile('./seeds/standardData.json').then((data) => res.json(JSON.parse(data)))
+);
 
-    res.status(200).json(newProject);
-  } catch (err) {
-    res.status(400).json(err);
+router.post('/', withAuth, (req, res) => {
+  // Destructuring assignment for the items in req.body
+  const { gradeSelected, classSelected, teacher} = req.body;
+
+  // If all the required properties are present
+  if (gradeSelected && classSelected && teacher) {
+    // Variable for the object we will save
+    const newClass = {
+      gradeSelected,
+      classSelected,
+      teacher
+    };
+
+    readAndAppend(newClass, './seeds/standardData.json');
+
+    const response = {
+      status: 'success',
+      body: newClass,
+    };
+
+    res.json(response);
+  } else {
+    res.json('Error in posting review');
   }
 });
 
