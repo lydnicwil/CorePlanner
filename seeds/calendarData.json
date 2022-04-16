@@ -16,5 +16,23 @@
         "gradeSelection": "0",
         "classSelection": "Math",
         "standardSelection": "Know number names and the count sequence. CCSS.Math.Content.K.CC.A"
+    },
+    {
+        "start_date": "04/20/2022",
+        "end_date": "04/23/2022",
+        "description": "Lesson",
+        "teacher": "5",
+        "gradeSelection": "0",
+        "classSelection": "Math",
+        "standardSelection": "Know number names and the count sequence. CCSS.Math.Content.K.CC.A"
+    },
+    {
+        "start_date": "04/20/2022",
+        "end_date": "04/21/2022",
+        "description": "Lesson ",
+        "teacher": "5",
+        "gradeSelection": "1",
+        "classSelection": "English",
+        "standardSelection": "Demonstrate understanding of the organization and basic features of print. CCSS.ELA-Literacy.RF.1.1"
     }
 ]
