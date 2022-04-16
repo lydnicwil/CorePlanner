@@ -11,6 +11,7 @@ header, .project:not(:last-child) {
   top: 0px;
   left: 0px;
   overflow: hidden;
+  font-family: Italiana;
 }
 
 .no-button {
