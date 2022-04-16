@@ -10,26 +10,11 @@
         <div class="background">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="calendar"></div>
-                        <div class="plansbtn"></div>
-                        <div class="standardsbtn"></div>
-                        {{#if classes.length}}
-                            <div class="col-md-6 class-list">
-                                <h3>Your Classes:</h3>
 
-                                {{#each classes as |class|}}
-                                <div class="row mb-2">
-                                    <div class="col-md-8">
-                                        <h4><a href="/class/{{class.id}}">{{class.name}}</a></h4>
-                                    </div> 
-                                </div>
-                                {{/each}}
-                            </div>
-                        {{/if}}
-                    </div>
-                    <a class="classes" href="/calendar">Add Lesson Standard to Schedule</a>
-                    <a class="standards" href="/standards">Full Standards List</a>
+                    <div class="plansbtn"></div>
+                    <div class="standardsbtn"></div>
+                    <a class="classes" href="/calendar">Upcoming Lesson Plans</a>
+                    <h2 class="standards" href="/standards">Full Standards List</a>
                     <h2 class="greeting">Hello, {{name}}!</h2>
                 </div>
             </div>
@@ -104,6 +89,9 @@ body {
   left: 722px;
   border-radius: 10px;
   overflow: hidden;
+}
+.row{
+  text-align: center;
 }
 .plansbtn {
   width: 464px;
