@@ -16,5 +16,5 @@ This is a full-stack application that allows teachers to add common core standar
 ## Links
 * Heroku URL - https://coreplanner.herokuapp.com
 * Repository - https://github.com/lydnicwil/CorePlanner.git	
-
+* test account: login: teacherstandards1@gmail.com / standards1234
 
