@@ -185,7 +185,7 @@ fetch('api/class', {
 
         else
         {
-          standardArea[0].value += "This user doesn't have acess to these standards.";
+          standardArea[0].value += "This user doesn't have access to these standards.";
         }
       };
 

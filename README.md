@@ -11,10 +11,10 @@ This is a full-stack application that allows teachers to add common core standar
 * Deployed with Heroku
 
 ## Previews
-*screenshots
+*![CorePlanner Preview](/assets/coreplanner.png)
 
 ## Links
-* Heroku URL - 
+* Heroku URL - https://coreplanner.herokuapp.com
 * Repository - https://github.com/lydnicwil/CorePlanner.git	
 
 
