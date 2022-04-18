@@ -1,0 +1,134 @@
+$background-color: rgba(229,248,255,1);
+$container-color: rgb(255, 255, 255);
+$header-color: rgba(7,31,116,1);
+$compliment-color: rgba(82,154,177,1);
+$essentially-black: rgba(0,0,0,1);
+$font-stack: Didot, serif;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: $background-color;
+}
+.background {
+  width: 100%;
+  height: 1024px;
+  background: $container-color;
+  opacity: 1;
+  position: flex;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px $essentially-black;
+  overflow: hidden;
+}
+.container {
+  width: 1000px;
+  height: 761px;
+  background: $container-color;
+  opacity: 1;
+  position: flex;
+  top: 125px;
+  /*left: 100px;*/
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+.calendar {
+  width: 543px;
+  height: 543px;
+  background:$container-color;
+  opacity: 1;
+  position: absolute;
+  top: 75px;
+  left: 722px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.row{
+  text-align: center;
+}
+.plansbtn {
+  width: 464px;
+  height: 113px;
+  background: $compliment-color;
+  opacity: 1;
+  position: absolute;
+  top: 225px;
+  left: 268px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.standardsbtn{
+  width: 464px;
+  height: 113px;
+  background: $compliment-color;
+  opacity: 1;
+  position: absolute;
+  top: 350px;
+  left: 268px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.classes {
+  width: 368px;
+  color: $essentially-black;
+  position: absolute;
+  top: 255px;
+  left: 316px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.standards {
+  width: 368px;
+  color: $essentially-black;
+  position: absolute;
+  top: 380px;
+  left: 316px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.greeting {
+  width: 470px;
+  color: $essentially-black;
+  position: absolute;
+  top: 150px;
+  left: 265px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 65px;
+  opacity: 1;
+  text-align: center;
+}
+
+.class-list h3 {
+  width: 470px;
+  color: $essentially-black;
+  position: absolute;
+  top: 175px;
+  right: 217px;
+  font-family: Italiana;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.class-list {
+  width: 470px;
+  color: $essentially-black;
+  position: absolute;
+  top: 300px;
+  right: 217px;
+  font-family: Italiana;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
